@@ -5,7 +5,9 @@
 *Work started on 3 June 2026.*
 
 **Working title:** Kairos (καιρός), 3 June 2026
+
 **Author:** Dinghao Luo
+
 **Repo:** `kairos`
 
 ---
@@ -56,7 +58,7 @@ Some candidate features, grouped by source, are as follows:
 **2. Network topology** ([Traag, Waltman, & van Eck, 2019](https://doi.org/10.1038/s41598-019-41695-z) for community detection)
 
 - Community modularity (Traag *et al.*'s Leiden algorithm cited above)
-- Citation Gini coefficient ([Nielsen & Andersen, 2021](https://doi.org/10.1073/pnas.2012208118))
+- Citation Gini coefficient, following [Nielsen & Andersen, 2021](https://doi.org/10.1073/pnas.2012208118)
 - Average shortest path length in the citation graph
 - Proportion of cross-community edges (boundary-spanning work)
 
@@ -125,27 +127,25 @@ And lastly, **what if the model fails?** If the zeitgeist vector has no predicti
 
 There is an abundance of arbitrariness in the criterion set used in feature engineering here, and if a result only holds at one specific parameter setting, it is an artefact of that setting. I will therefore vary the main operationalisation choices: breakthrough threshold (disruption cutoff, citation spike multiplier, cross-field uptake count), temporal aggregation window (1-year vs 3-year vs 5-year), and field boundary level in the OpenAlex hierarchy (subfield vs topic). The question is whether the same zeitgeist features remain predictive across reasonable parameter ranges.
 
-### Extension sketches
-
-These are sketches. I will build them if the core works.
+### Further extensions
 
 ### Survival analysis: time-to-recognition for delayed-recognition papers
 
-For papers that were ignored initially but later recognised (the phenomenon catalogued by [van Raan (*Scientometrics*, 2004)](https://doi.org/10.1023/B:SCIE.0000018543.82441.f1) and [Ke *et al.* (*PNAS*, 2015)](https://doi.org/10.1073/pnas.1424329112)), I will model time-to-recognition as a function of field-state covariates at the time of original publication.
+For papers that were ignored initially but later recognised, the phenomenon catalogued by [van Raan (*Scientometrics*, 2004)](https://doi.org/10.1023/B:SCIE.0000018543.82441.f1) and [Ke *et al.* (*PNAS*, 2015)](https://doi.org/10.1073/pnas.1424329112), I will model time-to-recognition as a function of field-state covariates at the time of original publication.
 
-Kaplan-Meier curves stratified by field fragmentation can answer the basic question: do ideas published during consolidated periods wait longer? The risk set includes all eligible low-initial-attention papers, with non-awakened papers right-censored at the end of observation. For multivariate analysis I will compare two specifications: baseline field-state covariates measured at publication, and time-varying field-state covariates updated during the dormancy period. I will test the proportional hazards assumption with Schoenfeld residuals ([Grambsch & Therneau, 1994](https://doi.org/10.1093/biomet/81.3.515)) and adjust the model accordingly if violated. Concordance index (Harrell's C) will be the primary evaluation metric. [Burrell, 2002](https://doi.org/10.1023/A:1019671808921) and [Eom & Fortunato, 2011](https://doi.org/10.1371/journal.pone.0024926) provide precedent for survival/hazard modelling of citation dynamics.
+Kaplan-Meier curves stratified by field fragmentation can answer the basic question: do ideas published during consolidated periods wait longer? The risk set includes all eligible low-initial-attention papers, with non-awakened papers right-censored at the end of observation. For multivariate analysis I will compare two specifications: baseline field-state covariates measured at publication, and time-varying field-state covariates updated during the dormancy period. I will test the proportional hazards assumption with Schoenfeld residuals, following [Grambsch & Therneau, 1994](https://doi.org/10.1093/biomet/81.3.515), and adjust the model accordingly if violated. Concordance index (Harrell's C) will be the primary evaluation metric. [Burrell, 2002](https://doi.org/10.1023/A:1019671808921) and [Eom & Fortunato, 2011](https://doi.org/10.1371/journal.pone.0024926) provide precedent for survival/hazard modelling of citation dynamics.
 
 ### Causal inference: does open access speed recognition?
 
-The open-access citation advantage is widely claimed but poorly established causally (most studies compare self-selected OA papers to non-OA papers, conflating quality with access). The NIH Public Access Policy, which became mandatory on 7 April 2008 after being voluntary from 2005, provides a natural experiment: NIH-funded papers published after that date must be deposited in PubMed Central within 12 months, regardless of the authors' preference. I will use difference-in-differences ([Angrist & Pischke, *Mostly Harmless Econometrics*, 2009](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics)) to compare citation trajectories of NIH-funded papers (treatment) to non-NIH-funded papers in the same fields and journals (control) around the 2008 mandate date. The outcome variable is citation count at 5 years post-publication. Limitations: the 12-month embargo blurs the access discontinuity, and compliance ramped up gradually rather than switching overnight; I will discuss these in the analysis.
+The open-access citation advantage is widely claimed but poorly established causally (most studies compare self-selected OA papers to non-OA papers, conflating quality with access). The NIH Public Access Policy, which became mandatory on 7 April 2008 after being voluntary from 2005, provides a natural experiment: NIH-funded papers published after that date must be deposited in PubMed Central within 12 months, regardless of the authors' preference. I will use difference-in-differences, following [Angrist & Pischke, *Mostly Harmless Econometrics*, 2009](https://press.princeton.edu/books/paperback/9780691120355/mostly-harmless-econometrics), to compare citation trajectories of NIH-funded papers (treatment) to non-NIH-funded papers in the same fields and journals (control) around the 2008 mandate date. The outcome variable is citation count at 5 years post-publication. Limitations: the 12-month embargo blurs the access discontinuity, and compliance ramped up gradually rather than switching overnight; I will discuss these in the analysis.
 
-I will use event-study pre-trends and placebo tests to assess the parallel-trends assumption. If I construct a matched treated/control design, I will add Rosenbaum bounds ([Rosenbaum, *Observational Studies*, 2002](https://doi.org/10.1007/978-1-4757-3692-2)) as a hidden-bias sensitivity check; otherwise I will rely on alternative control groups and robustness to matching specifications.
+I will use event-study pre-trends and placebo tests to assess the parallel-trends assumption. If I construct a matched treated/control design, I will add Rosenbaum bounds, following [Rosenbaum, *Observational Studies*, 2002](https://doi.org/10.1007/978-1-4757-3692-2), as a hidden-bias sensitivity check; otherwise I will rely on alternative control groups and robustness to matching specifications.
 
 ### Velocity analysis: are breakthroughs becoming rarer?
 
 Park *et al.* found that average disruption in science has declined over 65 years. But averages can mislead: if extreme events (the top 0.01% most disruptive papers) are constant while the denominator of total publications grows, the average falls even though breakthroughs are not becoming rarer. I want to test this directly.
 
-I will construct a time-series of breakthrough frequency per year (1970–2025, giving 56 annual data points). Change-point detection can identify whether there is a structural break in this series: did something shift at a particular moment, or has the rate been stable? I will use PELT ([Killick, Fearnhead, & Eckley, 2012](https://doi.org/10.1080/01621459.2012.737745)) as the primary method and Bayesian online change-point detection ([Adams & MacKay, 2007](https://arxiv.org/abs/0710.3742)) as a robustness check. If a change-point is detected, I will characterise the regime shift: did breakthrough frequency drop, or did it plateau while volume exploded? I will attempt a restricted reproduction of the Park *et al.* finding using available disruption datasets or a sampled OpenAlex citation network, then re-run on the tails only to see if it holds.
+I will construct a time-series of breakthrough frequency per year (1970–2025, giving 56 annual data points). Change-point detection can identify whether there is a structural break in this series: did something shift at a particular moment, or has the rate been stable? I will use PELT, following [Killick, Fearnhead, & Eckley, 2012](https://doi.org/10.1080/01621459.2012.737745), as the primary method and Bayesian online change-point detection, following [Adams & MacKay, 2007](https://arxiv.org/abs/0710.3742), as a robustness check. If a change-point is detected, I will characterise the regime shift: did breakthrough frequency drop, or did it plateau while volume exploded? I will attempt a restricted reproduction of the Park *et al.* finding using available disruption datasets or a sampled OpenAlex citation network, then re-run on the tails only to see if it holds.
 
 ### Visualisation
 
@@ -167,15 +167,15 @@ If extensions get built:
 
 ## Data sources and feasibility
 
-### OpenAlex ([Priem, Piwowar, & Orr, 2022](https://arxiv.org/abs/2205.01833))
+### OpenAlex, [Priem, Piwowar, & Orr, 2022](https://arxiv.org/abs/2205.01833)
 
 I will use OpenAlex as the primary data source; it is freemium, with free bulk snapshots and a daily free-quota API sufficient for prototyping, and covers 480M+ works with citation links, author affiliations, topics at four hierarchical levels (domain → field → subfield → topic), venues, open-access status, and funder data.
 
-However the problem is that coverage is strong from ~1950 onward but gets thin before that. [Culbert *et al.* (*Scientometrics*, 2025)](https://doi.org/10.1007/s11192-025-05293-3) looked at this: metadata (titles, authors, years) exists back to the 1600s, but citation links for pre-1950 papers are very incomplete. Mendel's 1866 paper exists in OpenAlex (W3119707353, 556 citations) but inbound citations are mostly from post-2000 papers with DOIs — the historical citation chain (papers from the 1900s citing Mendel) is largely absent because those citing papers lack machine-readable reference lists.
+However the problem is that coverage is strong from ~1950 onward but gets thin before that. [Culbert *et al.* (*Scientometrics*, 2025)](https://doi.org/10.1007/s11192-025-05293-3) looked at this: metadata (titles, authors, years) exists back to the 1600s, but citation links for pre-1950 papers are very incomplete. Mendel's 1866 paper exists in OpenAlex (W3119707353, 556 citations) but inbound citations are mostly from post-2000 papers with DOIs; the historical citation chain (papers from the 1900s citing Mendel) is largely absent because those citing papers lack machine-readable reference lists.
 
 What this means is that post-1950 cases (neural networks, information theory, place cells) have all the features I need to compute the zeitgeist vector, while pre-1950 cases (Mendel, continental drift) work for reception analysis but not for computing the zeitgeist vector at time of original publication.
 
-### CrossDI ([Xu *et al.* (*Scientific Data*, 2025)](https://doi.org/10.1038/s41597-025-06232-w))
+### CrossDI, [Xu *et al.* (*Scientific Data*, 2025)](https://doi.org/10.1038/s41597-025-06232-w)
 
 Pre-computed disruption indices (CD5/CD10) across Web of Science, Dimensions, and OpenCitations for selected domains. Computing CD5 from scratch via OpenAlex is impractical (three-hop citation queries per paper, hundreds of thousands of API calls for a single field-year). I will use CrossDI as a validation benchmark, not as the primary label source, and for OpenAlex-scale modelling I will need to approximate disruption with citation-spike and cross-field uptake criteria.
 
@@ -191,24 +191,29 @@ Third, the pre-1950 cases (Mendel, Wegener) have thin citation data. I can tell 
 
 ## Case studies
 
-Neural networks is the testbed — everything gets built and validated there first (the field-year table, the zeitgeist vector, the breakthrough label, the classifier), and if the pipeline produces nonsense on neural networks, where I know the history well enough to smell a bad result, it fails early and I do not waste time extending it. Place cells are the second case, one I know from the Wang lab, and a test of whether the pipeline generalises to a smaller field with different dynamics. Mendel and continental drift are narrative anchors and reception analyses; I am not pretending I can compute a full zeitgeist vector for 1866.
-
 ### Primary cases
 
 **1. Neural networks (1958 / 1986 / 2012)**
-Three waves: Rosenblatt's perceptron (1958), killed by Minsky/Papert (1969); backpropagation revival (Rumelhart/Hinton/Williams, 1986), faded by late 1990s; deep learning explosion (Krizhevsky/Sutskever/Hinton, 2012). The same core idea proposed three times under radically different conditions, and what distinguished the moments is precisely the structural question this project asks: compute availability, dataset sizes, adjacent-field progress, and institutional support all varied across the three waves. OpenAlex coverage is strong across all three periods, making this ideal for the exploratory phase.
+
+The history of neural networks is, in effect, three attempts at the same idea under radically different structural conditions. Rosenblatt's perceptron (1958) was the first wave, killed not by empirical failure but by Minsky & Papert's *Perceptrons* (1969) and its proof of linear separability limits, which dried up funding and interest for over a decade (Grace Lindsay talks about this in her fantastic *Models of the Mind*). The backpropagation revival, [Rumelhart, Hinton, & Williams, *Nature*, 1986](https://doi.org/10.1038/323533a0), demonstrated that multi-layer networks could learn, but the field faded again by the late 1990s as SVMs and kernel methods dominated and training deep networks remained unstable. The deep learning explosion, [Krizhevsky, Sutskever, & Hinton, *NeurIPS*, 2012](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html), succeeded where prior waves had not, and what changed was not the core mathematics but the structural conditions: GPU computing via CUDA, large labelled datasets like ImageNet, and a critical mass of researchers willing to revisit abandoned ideas.
+
+What distinguished these three moments is precisely the structural question that I am trying to ask with this project. Fortunately OpenAlex coverage is strong across all three periods, making this ideal for the exploratory phase.
 
 **2. Place cells and the cognitive map (O'Keefe 1971 / Nobel 2014)**
-O'Keefe discovered place cells in 1971; the work was respected but niche for decades, then became central to neuroscience once spatial cognition, memory consolidation, and navigation research converged around it (Nobel Prize in 2014). I know this case intimately from the Wang lab, and the question here is whether the zeitgeist vector picks up the convergence before the Nobel committee does.
+
+[O'Keefe & Dostrovsky (1971)](https://doi.org/10.1016/0006-8993(71)90358-1) discovered that hippocampal neurons fire selectively when a rat occupies a specific location in its environment, providing the first physiological evidence for Tolman's cognitive map hypothesis. The work was respected but remained niche for decades; hippocampal research was dominated by memory consolidation and LTP studies, and the spatial cognition community was small. The field converged in the 2000s as grid cells, [Hafting *et al.*, *Nature*, 2005](https://doi.org/10.1038/nature03721), and head direction cells filled out the navigation circuit, and multiple research programmes in memory, navigation, and decision-making began citing the same spatial framework. The Nobel Prize in 2014 (O'Keefe, Moser, and Moser) recognised this convergence. And I know this case by heart since I have worked in the hippocampus field for years, and the question here is whether the zeitgeist vector picks up the convergence before the Nobel committee does.
 
 **3. Information theory across disciplines (Shannon 1948 onwards)**
-Shannon published in the Bell System Technical Journal, and information theory crossed into linguistics (1950s), biology (genetic code as information, 1960s), neuroscience (neural coding, 1970s-80s), and machine learning (1990s-2000s), each crossing at a different pace under different conditions. This is the 'immediately picked-up' case: Shannon was recognised quickly in engineering but took decades to diffuse elsewhere, which makes it useful for testing whether the zeitgeist vector can distinguish fast uptake from slow diffusion.
+
+[Shannon's 1948 paper](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x) in the Bell System Technical Journal was recognised immediately in electrical engineering and telecommunications, but took decades to diffuse into other disciplines. Information theory crossed into linguistics (1950s, the Chomsky/Shannon debates), biology (the genetic code as information channel, 1960s), neuroscience (neural coding and information-theoretic analysis of spike trains, 1970s–80s), and machine learning (1990s–2000s). Each crossing happened at a different pace under different conditions, and what varied was not Shannon's formalism but the receiving field's readiness to absorb it. This case is useful for testing whether the zeitgeist vector can distinguish fast uptake from slow diffusion within a single intellectual lineage.
 
 **4. Mendel's genetics (1866 / 1900)**
-The archetypal delayed-recognition case: Mendel published in a reputable journal to no effect, and thirty-four years later three scientists independently rediscovered the same laws within months. What changed? Cell biology had matured; chromosomes had been observed; Weismann had theorised about hereditary material — the field built the scaffolding Mendel's ideas needed to land on. The zeitgeist vector at 1866 will be partial (publication counts and institutional diversity are computable, but citation networks and topic tags are not), so this is a narrative case, not a quantitative test case.
+
+This is the archetypal delayed-recognition case: Mendel published his hybridisation experiments in the *Verhandlungen des naturforschenden Vereines in Brünn* in 1866 to no effect, and thirty-four years later de Vries (1900), Correns, and Tschermak independently rediscovered the same laws within months of each other. What changed was not that someone finally read Mendel; it was that the field had built the scaffolding his ideas needed to land on. Cell biology had matured; chromosomes had been observed dividing; Weismann (1893) had theorised about the continuity of the germ plasm. The simultaneous rediscovery is itself evidence that the conditions were structurally ripe, a textbook instance of Merton's multiple discovery thesis. The zeitgeist vector at 1866 will be partial (publication counts and institutional diversity are computable, but citation networks and topic tags are not), so this is a narrative case, not a quantitative test case.
 
 **5. Continental drift / plate tectonics (1912 / 1960s)**
-Wegener proposed drift in 1912 with substantial evidence, but was rejected for decades — not because the evidence was weak, but because no mechanism was known and the geological establishment was hostile — until Hess (1962), Vine-Matthews (1963), and Wilson's transform faults created a mechanistic framework in the 1960s. Sonar mapping (developed during WWII) enabled the ocean-floor evidence, a classic case of military-funded instrumentation enabling breakthrough. Like Mendel, this is primarily a narrative and reception analysis.
+
+Wegener proposed continental drift in *Die Entstehung der Kontinente und Ozeane* (1915) with substantial evidence (coastline fit, fossil distributions, geological formations across continents), but was rejected for decades. The rejection was not primarily evidential; it was that no plausible mechanism existed for continents to plough through ocean crust, and the geological establishment (e.g. Jeffreys, *The Earth*, 1924) was hostile to the idea. Acceptance came in the 1960s after [Hess (1962)](https://doi.org/10.1130/petrologic.1962.599) proposed seafloor spreading, [Vine & Matthews (1963)](https://doi.org/10.1038/199947a0) confirmed magnetic reversal stripes on the ocean floor, and Wilson's transform faults completed the mechanistic framework. Crucially, the enabling instrumentation (sonar mapping) came from WWII military investment, a classic case of external technology unlocking scientific progress. Like Mendel, this is primarily a narrative and reception analysis.
 
 ### Additional cases (will not be analysed individually)
 
