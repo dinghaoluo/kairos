@@ -1,0 +1,10 @@
+# ignore API key 
+.env
+
+# ignore Python virtual env and cache files 
+.venv/
+.pytest_cache/
+__pycache__/
+
+# ignore kairos metadata files
+src/kairos.egg-info
