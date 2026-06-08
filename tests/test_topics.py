@@ -7,7 +7,7 @@ test OpenAlex topic helpers
 '''
 
 #%% imports
-from kairos.data.topics import normalise_topic
+from kairos.data.topics import count_boundary_works_by_year, normalise_topic
 
 
 #%% tests
@@ -41,3 +41,30 @@ def test_normalise_topic_keeps_boundary_fields() -> None:
     assert row['field_name'] == 'Computer Science'
     assert row['domain_name'] == 'Physical Sciences'
 
+
+def test_count_boundary_works_by_year_uses_requested_level() -> None:
+    '''boundary counts should use the selected OpenAlex hierarchy level'''
+    class FakePage:
+        groups = [
+            {'key': '1950', 'count': 1},
+            {'key': '2012', 'count': 42},
+        ]
+
+    class FakeClient:
+        def get(self, endpoint: str, params: dict) -> FakePage:
+            self.endpoint = endpoint
+            self.params = params
+            return FakePage()
+
+    client = FakeClient()
+    rows = count_boundary_works_by_year(
+        client,
+        'topic',
+        ('T10320', 'T10036'),
+        1955,
+        2025,
+    )
+
+    assert client.endpoint == 'works'
+    assert client.params['filter'] == 'topics.id:T10320|T10036'
+    assert rows == [{'publication_year': 2012, 'works_count': 42}]

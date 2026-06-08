@@ -14,6 +14,14 @@ from typing import Any
 from kairos.data.api import OpenAlexClient
 
 
+#%% boundary filters
+BOUNDARY_FILTER_KEYS = {
+    'topic': 'topics.id',
+    'subfield': 'topics.subfield.id',
+    'field': 'topics.field.id',
+}
+
+
 #%% topic records
 def normalise_topic(topic: dict[str, Any]) -> dict[str, Any]:
     '''extract the topic fields needed for boundary checks'''
@@ -35,6 +43,14 @@ def normalise_topic(topic: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def normalise_year_count(group: dict[str, Any]) -> dict[str, int]:
+    '''extract a publication-year count from a grouped response'''
+    return {
+        'publication_year': int(group['key']),
+        'works_count': group['count'],
+    }
+
+
 def search_topics(
         client: OpenAlexClient,
         query: str,
@@ -49,3 +65,32 @@ def search_topics(
     page = client.get('topics', params)
     return [normalise_topic(topic) for topic in page.results]
 
+
+def count_boundary_works_by_year(
+        client: OpenAlexClient,
+        boundary_level: str,
+        boundary_ids: str | tuple[str, ...],
+        start_year: int,
+        end_year: int,
+        ) -> list[dict[str, int]]:
+    '''count works by year for one topic, subfield, or field boundary'''
+    filter_key = BOUNDARY_FILTER_KEYS[boundary_level]
+    if isinstance(boundary_ids, str):
+        short_ids = (boundary_ids.rsplit('/', 1)[-1],)
+    else:
+        short_ids = tuple(boundary_id.rsplit('/', 1)[-1] for boundary_id in boundary_ids)
+    filter_value = '|'.join(short_ids)
+    page = client.get(
+        'works',
+        {
+            'filter': f'{filter_key}:{filter_value}',
+            'group_by': 'publication_year',
+            'per-page': 100,
+        },
+    )
+    rows = [normalise_year_count(group) for group in page.groups]
+    rows = [
+        row for row in rows
+        if start_year <= row['publication_year'] <= end_year
+    ]
+    return sorted(rows, key=lambda row: row['publication_year'])

@@ -45,6 +45,11 @@ class OpenAlexPage:
         '''return OpenAlex response metadata'''
         return dict(self.data.get('meta', {}))
 
+    @property
+    def groups(self) -> list[dict[str, Any]]:
+        '''return OpenAlex grouped-count records as a list'''
+        return list(self.data.get('group_by', []))
+
 
 #%% client
 class OpenAlexClient:
