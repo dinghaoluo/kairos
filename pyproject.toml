@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "kairos"
 version = "0.1.0"
-description = "Field-state features for predicting scientific breakthroughs from OpenAlex data."
+description = "Can field-state signals predict whether a scientific breakthrough is coming?"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -30,4 +30,3 @@ testpaths = ["tests"]
 markers = [
     "integration: tests that require live network access or recorded API responses",
 ]
-
