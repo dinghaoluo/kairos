@@ -8,3 +8,6 @@ __pycache__/
 
 # ignore kairos metadata files
 src/kairos.egg-info
+
+# ignore fetched OpenAlex data
+data/raw/
