@@ -7,10 +7,21 @@ test OpenAlex topic helpers
 '''
 
 #%% imports
-from kairos.data.topics import count_boundary_works_by_year, normalise_topic
+from kairos.data.topics import boundary_filter, count_boundary_works_by_year, normalise_topic
 
 
 #%% tests
+def test_boundary_filter_keeps_level_and_year() -> None:
+    '''boundary filters should combine IDs before adding the year'''
+    text = boundary_filter(
+        'primary_topic',
+        ('https://openalex.org/T10320', 'T10036'),
+        publication_year=2012,
+    )
+
+    assert text == 'primary_topic.id:T10320|T10036,publication_year:2012'
+
+
 def test_normalise_topic_keeps_boundary_fields() -> None:
     '''topic records should keep hierarchy information'''
     topic = {

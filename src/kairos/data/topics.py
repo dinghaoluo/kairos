@@ -17,9 +17,35 @@ from kairos.data.api import OpenAlexClient
 #%% boundary filters
 BOUNDARY_FILTER_KEYS = {
     'topic': 'topics.id',
+    'primary_topic': 'primary_topic.id',
     'subfield': 'topics.subfield.id',
     'field': 'topics.field.id',
 }
+
+
+def short_openalex_id(openalex_id: str | None) -> str | None:
+    if openalex_id is None:
+        return None
+    return openalex_id.strip().rsplit('/', 1)[-1]
+
+
+def boundary_filter(
+        boundary_level: str,
+        boundary_ids: str | tuple[str, ...],
+        publication_year: int | None = None,
+        ) -> str:
+    '''build OA filter from our custom boundary definition'''
+    filter_key = BOUNDARY_FILTER_KEYS[boundary_level]
+    if isinstance(boundary_ids, str):
+        short_ids = (short_openalex_id(boundary_ids),)
+    else:
+        short_ids = tuple(short_openalex_id(boundary_id) for boundary_id in boundary_ids)
+
+    filter_value = '|'.join(short_ids)
+    filter_parts = [f'{filter_key}:{filter_value}']
+    if publication_year is not None:
+        filter_parts.append(f'publication_year:{publication_year}')
+    return ','.join(filter_parts)
 
 
 #%% topic records
@@ -44,7 +70,6 @@ def normalise_topic(topic: dict[str, Any]) -> dict[str, Any]:
 
 
 def normalise_year_count(group: dict[str, Any]) -> dict[str, int]:
-    '''extract a publication-year count from a grouped response'''
     return {
         'publication_year': int(group['key']),
         'works_count': group['count'],
@@ -56,7 +81,7 @@ def search_topics(
         query: str,
         per_page: int = 5,
         ) -> list[dict[str, Any]]:
-    '''search OpenAlex topics for one candidate phrase'''
+    '''search OA topics for one candidate phrase'''
     params = {
         'search': query,
         'per-page': per_page,
@@ -74,16 +99,10 @@ def count_boundary_works_by_year(
         end_year: int,
         ) -> list[dict[str, int]]:
     '''count works by year for one topic, subfield, or field boundary'''
-    filter_key = BOUNDARY_FILTER_KEYS[boundary_level]
-    if isinstance(boundary_ids, str):
-        short_ids = (boundary_ids.rsplit('/', 1)[-1],)
-    else:
-        short_ids = tuple(boundary_id.rsplit('/', 1)[-1] for boundary_id in boundary_ids)
-    filter_value = '|'.join(short_ids)
     page = client.get(
         'works',
         {
-            'filter': f'{filter_key}:{filter_value}',
+            'filter': boundary_filter(boundary_level, boundary_ids),
             'group_by': 'publication_year',
             'per-page': 100,
         },
