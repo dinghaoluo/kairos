@@ -37,17 +37,14 @@ class OpenAlexPage:
 
     @property
     def results(self) -> list[dict[str, Any]]:
-        '''return OpenAlex result records as a list'''
         return list(self.data.get('results', []))
 
     @property
     def meta(self) -> dict[str, Any]:
-        '''return OpenAlex response metadata'''
         return dict(self.data.get('meta', {}))
 
     @property
     def groups(self) -> list[dict[str, Any]]:
-        '''return OpenAlex grouped-count records as a list'''
         return list(self.data.get('group_by', []))
 
 
@@ -83,7 +80,8 @@ class OpenAlexClient:
         if self.api_key:
             request_params['api_key'] = self.api_key
 
-        url = f"{self.base_url}/{endpoint.lstrip('/')}"
+        clean_endpoint = endpoint.lstrip('/')
+        url = f'{self.base_url}/{clean_endpoint}'
         last_error: Exception | None = None
         for attempt in range(self.max_retries + 1):
             try:
@@ -116,20 +114,26 @@ class OpenAlexClient:
         params: Mapping[str, Any] | None = None,
         per_page: int = 100,
         max_pages: int | None = None,
+        start_cursor: str = '*',
+        include_empty: bool = False,
     ) -> Iterator[OpenAlexPage]:
-        '''yield OpenAlex cursor pages until the query is exhausted'''
-        cursor = '*'
+        '''yield cursor pages, optionally starting from a saved cursor'''
+        cursor = start_cursor
         pages_seen = 0
         while True:
             page_params = dict(params or {})
             page_params['cursor'] = cursor
             page_params['per-page'] = per_page
             page = self.get(endpoint, page_params)
+            if not page.results:
+                if include_empty:
+                    yield page
+                break
             yield page
 
             pages_seen += 1
             cursor = page.meta.get('next_cursor')
-            if not cursor or not page.results:
+            if not cursor:
                 break
             if max_pages is not None and pages_seen >= max_pages:
                 break
