@@ -7,7 +7,13 @@ test OpenAlex work normalisation
 '''
 
 #%% imports
-from kairos.data.work import normalise_work, search_work, search_works
+from kairos.data.work import (
+    abstract_from_inverted_index,
+    normalise_work,
+    search_work,
+    search_works,
+    work_is_excluded,
+)
 
 
 #%% tests
@@ -50,6 +56,20 @@ def test_normalise_work_keeps_topic_hierarchy() -> None:
     assert row['primary_field_name'] == 'Computer Science'
     assert row['topic_subfield_ids'] == ['https://openalex.org/subfields/1702']
     assert row['topic_field_ids'] == ['https://openalex.org/fields/17']
+
+
+def test_abstract_from_inverted_index_rebuilds_text() -> None:
+    '''OA abstract indexes should be reversible enough for NLP'''
+    abstract_index = {
+        'neural': [0],
+        'networks': [1, 4],
+        'learn': [2],
+        'representations': [3],
+    }
+
+    abstract = abstract_from_inverted_index(abstract_index)
+
+    assert abstract == 'neural networks learn representations networks'
 
 
 def test_search_work_prefers_openalex_id() -> None:
@@ -98,3 +118,8 @@ def test_search_works_returns_normalised_rows() -> None:
     assert client.endpoint == 'works'
     assert client.params['search'] == 'test query'
     assert rows[0]['openalex_id'] == 'https://openalex.org/W123'
+
+
+def test_manual_prehistory_exclusions_are_flagged() -> None:
+    '''known false records should not enter feature tables quietly'''
+    assert work_is_excluded('https://openalex.org/W3194025661')

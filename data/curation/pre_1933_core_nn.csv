@@ -1,0 +1,763 @@
+year,openalex_id,title,source,cited_by_count,note,decision
+1800,https://openalex.org/W3194025661,Let's Keep it That Way @ Root Signals,,0,obvious malformed/non-scholarly false hit,ignore
+1801,https://openalex.org/W3024112564,A Case of Synocha.,PubMed,0,unrelated medicine/natural science/engineering,ignore
+1827,https://openalex.org/W2042025359,"On grinding and polishing lenses, for optical purposes",Journal of the Franklin Institute,0,unrelated medicine/natural science/engineering,ignore
+1836,https://openalex.org/W2043597042,ON THE EXISTENCE OF NERVOUS INDUCTION IN FUNCTIONAL PROCESSES.,The Lancet,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1838,https://openalex.org/W2496959950,"On induction, continued ; Nature of the electrical current",The Royal Society eBooks,0,no clear link to neural-network prehistory in title/source,ignore
+1843,https://openalex.org/W4229765896,NEW MEANS OF TESTING BUFFY BLOOD.,The Lancet,0,unrelated medicine/natural science/engineering,ignore
+1845,https://openalex.org/W2001706764,On the causes of the great Versailles railway accident,Journal of the Franklin Institute,0,unrelated medicine/natural science/engineering,ignore
+1845,https://openalex.org/W2033215375,ON THE LAW OF ASSOCIATION BETWEEN SENTIENT AND MOTOR NERVES.,The Lancet,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1845,https://openalex.org/W4239292221,Sull'induzione elettro-statica,Il Cimento,0,no clear link to neural-network prehistory in title/source,ignore
+1846,https://openalex.org/W2066114672,"ON MEMORY, ITS INFLUENCE AND IMPORTANCE AS A SOURCE OF ACTION IN ANIMALS.",The Lancet,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1846,https://openalex.org/W4214542594,Use of madder in dyeing,Journal of the Franklin Institute,0,unrelated medicine/natural science/engineering,ignore
+1847,https://openalex.org/W4254906225,Shearing Machines,Scientific American,0,unrelated medicine/natural science/engineering,ignore
+1848,https://openalex.org/W4242521424,ON THE ELECTRIC FLUID.,The Lancet,0,unrelated medicine/natural science/engineering,ignore
+1849,https://openalex.org/W4241606878,Meterological Knowledge,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1849,https://openalex.org/W2000385380,Report on R. E. Monaghan's apparatus for recording the ayes and nays in legislative assemblies,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1851,https://openalex.org/W2281898397,[Letter from L. Lea] Acknowledging receipt of abstract of dispositon of Choctaw scrip received from S. M. Rutherford,ThinkTech (Texas Tech University),0,no clear link to neural-network prehistory in title/source,ignore
+1851,https://openalex.org/W4293277813,"The Dynamics of the Circulation, Determined Experimentally.",PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1852,https://openalex.org/W4247588585,"Caloric, or Latent Heat",Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1852,https://openalex.org/W4235276318,Guthrie's Water Indicator for Boilers,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1854,https://openalex.org/W2794525120,Mémoire sur les facteurs irréductibles de l’expression $x^n - 1$.,French digital mathematics library (Numdam),3,no clear link to neural-network prehistory in title/source,ignore
+1854,https://openalex.org/W4251467429,Identity of dynamic or voltaic electricity with static or frictional electricity,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1854,https://openalex.org/W4251721510,Improved Gold Amalgamator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1854,https://openalex.org/W4213087175,Improved Miter Box,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1856,https://openalex.org/W1996097720,Sul teorema fondamentale dell’induzione elettrostatiga,Il Nuovo Cimento,0,no clear link to neural-network prehistory in title/source,ignore
+1857,https://openalex.org/W3025186590,On the Compensatory Relations between the Faculties of Order and Memory.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1858,https://openalex.org/W4247192737,Improvement in Electrotyping,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1859,https://openalex.org/W4240789535,Action of Waves,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1859,https://openalex.org/W4293261099,Irregularity.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1860,https://openalex.org/W2032152368,Applicazione del discriminante nullo alla risoluzione di alcuni problemi,Annali di Matematica Pura ed Applicata (1923 -),2,no clear link to neural-network prehistory in title/source,ignore
+1860,https://openalex.org/W1498625575,IV. Extracts from notes on electrical conductivity,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,1,no clear link to neural-network prehistory in title/source,ignore
+1860,https://openalex.org/W4247143307,Latent Heat,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1861,https://openalex.org/W3025394852,On the Structure of the Inductive Syllogism and Its Correlation to the Deductive.,PubMed,0,plausible statistical or probabilistic method prehistory,keep
+1862,https://openalex.org/W4214575728,On electrical quantities and resistance,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1862,https://openalex.org/W2025185712,Sulle induzioni elettro-dinamiche,Il Nuovo Cimento,0,no clear link to neural-network prehistory in title/source,ignore
+1864,https://openalex.org/W4244208038,What became of voltaire's remains?,Notes and Queries,0,no clear link to neural-network prehistory in title/source,ignore
+1865,https://openalex.org/W184167255,VI. Supplement to a paper on stream-lines,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,21,no clear link to neural-network prehistory in title/source,ignore
+1866,https://openalex.org/W3025729646,On Linear Extraction.,PubMed,1,no clear link to neural-network prehistory in title/source,ignore
+1866,https://openalex.org/W2022911419,10. New An??esthetic Mixture,The American Journal of the Medical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1866,https://openalex.org/W2964415841,Lecture on Linear Extraction.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1866,https://openalex.org/W4293303964,Spectral Analysis.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1867,https://openalex.org/W4240076747,A new form of the Holtz machine,Journal of the Franklin Institute,0,"plausible logic, computation, circuit, or network prehistory",keep
+1867,https://openalex.org/W4293307775,Linear Extraction.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1867,https://openalex.org/W4293260009,On the Influence of Extreme Cold on Nervous Functions.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1868,https://openalex.org/W2792269998,"XXXIX. On “Inductive circuits,” or the application of Ohm's law to problems of electrostatics",The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,1,"plausible logic, computation, circuit, or network prehistory",keep
+1868,https://openalex.org/W198463828,XL. On a new form of voltameter and voltastat,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1869,https://openalex.org/W2075057796,Formation of an artificial spectrum with a fraunhofer line,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1870,https://openalex.org/W2321118800,Differential Indications for the Use of Localized and General Electrization,New England Journal of Medicine,0,no clear link to neural-network prehistory in title/source,ignore
+1870,https://openalex.org/W2319965221,On a simple method of measuring electrical conductivities by means of two equal and opposed magneto-electric currents or waves,American Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1870,https://openalex.org/W3043393364,On the Theory of Resonance. [Abstract],Proceedings of the Royal Society of London Series I,0,no clear link to neural-network prehistory in title/source,ignore
+1870,https://openalex.org/W4310962983,Sharp-Pointed Memories.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1870,https://openalex.org/W4293260428,Spectral Analysis.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1871,https://openalex.org/W3120312104,On Specific Heat,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1871,https://openalex.org/W3120618407,Latent Heat of Liquids,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1872,https://openalex.org/W2319627600,On the Allegheny system of electric time signals,American Journal of Science,3,"plausible information, communication, or signalling prehistory",keep
+1872,https://openalex.org/W2016347511,An Experiment to Illustrate the Induction on Itself of an Electric Current,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1872,https://openalex.org/W4241465430,On Measuring Temperatures by Electricity*,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1872,https://openalex.org/W4293275088,Operation Statistics.,PubMed,0,plausible statistical or probabilistic method prehistory,keep
+1873,https://openalex.org/W2964212213,On an Apparatus for Maintaining Artificial Respiration in Physiological Experiments.,PubMed,1,"plausible logic, computation, circuit, or network prehistory",keep
+1873,https://openalex.org/W3044115175,Frankenstein Trestle work. (D) P. & O.R.R.,New York Public Library eBooks,0,no clear link to neural-network prehistory in title/source,ignore
+1873,https://openalex.org/W4293022287,Irregularity.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1873,https://openalex.org/W4239178470,Latent Heat,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1873,https://openalex.org/W3171307324,Mikrometrisk Bestaemning af 104 Stjernor inom Telescopiska Stjerngruppen 20 Vulpeculae.,,0,no clear link to neural-network prehistory in title/source,ignore
+1874,https://openalex.org/W1996684865,On a Proposed Statistical Scale,Nature,19,plausible statistical or probabilistic method prehistory,keep
+1874,https://openalex.org/W4251852022,IV. On electrotorsion,Proceedings of the Royal Society of London,1,no clear link to neural-network prehistory in title/source,ignore
+1874,https://openalex.org/W3150229678,Convection applied to the detection of heat.—II,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1874,https://openalex.org/W4206492516,XVI. On electrotorsion,Philosophical Transactions of the Royal Society of London,0,no clear link to neural-network prehistory in title/source,ignore
+1875,https://openalex.org/W1987066515,On a New Form of Artificial Membrana Tympani,BMJ,0,no clear link to neural-network prehistory in title/source,ignore
+1875,https://openalex.org/W1982017848,"On an improved form of aneroid for determining heights, with a means of adjusting the atitude scale for various temperatures",Quarterly Journal of the Royal Meteorological Society,0,no clear link to neural-network prehistory in title/source,ignore
+1875,https://openalex.org/W4301463560,Query.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1875,https://openalex.org/W4299372455,Query.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1875,https://openalex.org/W4244918209,Reverie and abstraction:--Electro-biology.,,0,no clear link to neural-network prehistory in title/source,ignore
+1876,https://openalex.org/W3120629312,New Theory of Latent Heat,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1876,https://openalex.org/W3120469942,Novel Speed-Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1876,https://openalex.org/W2496681619,On a certain kind of series as the foundation of probability.,Macmillan and Co eBooks,0,plausible statistical or probabilistic method prehistory,keep
+1876,https://openalex.org/W2490965627,On the causal process by which the series of probability are brought about.,Macmillan and Co eBooks,0,plausible statistical or probabilistic method prehistory,keep
+1876,https://openalex.org/W2104397171,The Bakerian lecture.— On the forms of equipotential curves and surfaces and on lines of flow,Proceedings of the Royal Society of London,0,no clear link to neural-network prehistory in title/source,ignore
+1876,https://openalex.org/W2081627473,The theory of the “Holtz” electrical machine,Journal of the Franklin Institute,0,"plausible logic, computation, circuit, or network prehistory",keep
+1877,https://openalex.org/W4239647711,Electric conductivity of trees,Journal of the Franklin Institute,0,"plausible logic, computation, circuit, or network prehistory",keep
+1877,https://openalex.org/W4252316310,Electric Signal for Divers,Scientific American,0,"plausible information, communication, or signalling prehistory",keep
+1877,https://openalex.org/W2019287272,The graphical method versus that by least squares,Journal of the Franklin Institute,0,"plausible logic, computation, circuit, or network prehistory",keep
+1877,https://openalex.org/W4239228726,Transparent gold,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W2057318293,"II. Experimental results relating to the rhythmical and excitatory motions of the ventricle of the heart of the frog, and of the electrical phenomena which accompany them",Proceedings of the Royal Society of London,15,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W2331245256,Note on the Theory of Electric Absorption,American Journal of Mathematics,2,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W2247777006,On Some Improvements in Instruments and Appliances for Diagnosis.,PubMed,1,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W4243505016,Electric conductivity in constant streams,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W2118351508,Experiments on electrical resistance,Journal of the Society of Telegraph Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W4230935029,Improved Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W4317682820,Intelligent and Efficient Quarantine.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W4300343693,Metric System.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W4317690037,Metric System.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1878,https://openalex.org/W2951427668,Some Tables for the Interconversion of Metric and English Units,Biodiversity Heritage Library (Smithsonian Institution),0,no clear link to neural-network prehistory in title/source,ignore
+1879,https://openalex.org/W4242979036,Influence of Pressure on Spectra,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1879,https://openalex.org/W4300102222,Metric System.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1879,https://openalex.org/W4237977246,Self-Regulating Filter,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1880,https://openalex.org/W2164653234,On Multiple Spectra,Science,3,no clear link to neural-network prehistory in title/source,ignore
+1880,https://openalex.org/W4234993723,Electric synchronism of motors and receivers,Journal of the Franklin Institute,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1880,https://openalex.org/W2178596664,On the theory of induction-currents,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1880,https://openalex.org/W4244854127,Prof. Jaeger's Neural Analysis,Scientific American,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1881,https://openalex.org/W3146233023,On the Analytical Forms Called Trees,American Journal of Mathematics,100,"plausible logic, computation, circuit, or network prehistory",keep
+1881,https://openalex.org/W4231251898,Photo-Micrography,Science,1,"plausible logic, computation, circuit, or network prehistory",keep
+1881,https://openalex.org/W2116646053,A REMARKABLE INSTANCE OF RETENTION OF HEAT BY THE EARTH,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1881,https://openalex.org/W4240387716,Esher,Notes and Queries,0,no clear link to neural-network prehistory in title/source,ignore
+1881,https://openalex.org/W46167153,Modification of Snellen's Forceps for Entropion Operations.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1881,https://openalex.org/W4230453349,On a Thermo-Magnetic Thermoscope,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1882,https://openalex.org/W4243600105,Improved T-Square,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1882,https://openalex.org/W4368355908,Neural Analysis: By the Electro-Magnetic Method.,PubMed,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1882,https://openalex.org/W4311018460,A Machine That Measures Thought.,PubMed,0,"plausible logic, computation, circuit, or network prehistory",keep
+1882,https://openalex.org/W4242905361,Improved Automatic Gate,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1882,https://openalex.org/W4386154048,Tests of Sight for Signallers and Lookout Men.,PubMed,0,"plausible information, communication, or signalling prehistory",keep
+1882,https://openalex.org/W4230647875,Voltaic Accumulation,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W2043420030,Sui sistemi di funzioni analitiche e le serie formate coi medesimi,Annali di Matematica Pura ed Applicata (1923 -),7,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W2032102729,Expériences de projection avec le courant voltaïque,Journal de Physique Théorique et Appliquée,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W4214564886,FUNCTIONAL INDEPENDENCE OF EACH HEMISPHERE,The Journal of Nervous and Mental Disease,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W4243682283,Heat and magnetism,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W4205594738,Induced currents in reciprocal movements,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W4311023365,Insidious Destroyers.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1883,https://openalex.org/W4230862978,Photo-Micrography,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1884,https://openalex.org/W1965133626,The Toepler-Holtz Machine,Science,2,"plausible logic, computation, circuit, or network prehistory",keep
+1884,https://openalex.org/W4392551254,A Positive Speed Indicator,Transactions of the American Society of Mechanical Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1884,https://openalex.org/W4236970488,An Improved Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1884,https://openalex.org/W4236379726,Electro-dynamics,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1884,https://openalex.org/W4247587039,Hotzʼs Operation for Entropion,The American Journal of the Medical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1884,https://openalex.org/W2331284522,On the expression of electrical resistance in terms of a velocity,American Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1884,https://openalex.org/W2990279228,Value of the BA Unit of Electrical Resistance in Absolute Measure.,,0,no clear link to neural-network prehistory in title/source,ignore
+1885,https://openalex.org/W2002799828,Recent Advances in Electrical Science,Science,5,no clear link to neural-network prehistory in title/source,ignore
+1885,https://openalex.org/W2063108923,"Some remarks on the volta force and seat of electro-motive forces questions, and on impressed force and potential in condenser circuits",Journal of the Society of Telegraph-Engineers and Electricians,3,"plausible logic, computation, circuit, or network prehistory",keep
+1885,https://openalex.org/W1963634292,"Electrical definitions, nomenclature, and notation",Journal of the Society of Telegraph-Engineers and Electricians,0,no clear link to neural-network prehistory in title/source,ignore
+1885,https://openalex.org/W4255928303,Improved Miter Box,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1885,https://openalex.org/W4232257886,Improved Sample Box,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1885,https://openalex.org/W4242807392,Magneto-Electric Crossing Signal,Scientific American,0,"plausible information, communication, or signalling prehistory",keep
+1886,https://openalex.org/W3120413031,An Apparatus for Reproducing at Pleasure an Invariable Quantity of Electricity,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1886,https://openalex.org/W4234981965,Centrifugal Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1886,https://openalex.org/W1978499939,Method of Stating Results of Water-Analyses,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1886,https://openalex.org/W4200256042,The Edelmann Voltameters and Amperemeters,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1887,https://openalex.org/W4229873730,An Improved Vermin Exterminator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1887,https://openalex.org/W3014884130,Break-circuit chronometers,Observatory,0,"plausible logic, computation, circuit, or network prehistory",keep
+1887,https://openalex.org/W3005980027,Break-circuit chronometers,Observatory,0,"plausible logic, computation, circuit, or network prehistory",keep
+1887,https://openalex.org/W3216520520,Division i decimalbråk,Gothenburg University Publications Electronic Archive (Gothenburg University),0,no clear link to neural-network prehistory in title/source,ignore
+1887,https://openalex.org/W4238787753,The Secohmmeter,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1888,https://openalex.org/W4241302474,The Menges Thermo-Magnetic Generator and Motor,Scientific American,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1888,https://openalex.org/W4392266551,An Electric Speed Recorder,Transactions of the American Society of Mechanical Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1888,https://openalex.org/W4245426725,An Improved Block Signal,Scientific American,0,"plausible information, communication, or signalling prehistory",keep
+1888,https://openalex.org/W4234999703,An Improved Electrical Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1888,https://openalex.org/W4246081463,An Improved Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1888,https://openalex.org/W3040886093,Grünwald's Theory of Spectrum Analysis,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1888,https://openalex.org/W4300103789,Query.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1889,https://openalex.org/W2034652143,On an electrochemical actinometer,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,3,unrelated medicine/natural science/engineering,ignore
+1889,https://openalex.org/W4237672485,An Improved Siphon,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1889,https://openalex.org/W4210434512,Mechanical Statistical Devices,Publications of the American Statistical Association,0,plausible statistical or probabilistic method prehistory,keep
+1889,https://openalex.org/W4376474786,Mechanical Statistical Devices,Publications of the American Statistical Association,0,plausible statistical or probabilistic method prehistory,keep
+1889,https://openalex.org/W3119476701,Review of Theories of Electrical Action,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1889,https://openalex.org/W2094212390,Review of theories of electrical action,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1889,https://openalex.org/W2799551865,Telephonic Specific Inductive Capacity,Proceedings of the American Academy of Arts and Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1889,https://openalex.org/W1993287074,X.—On Scolopax rosenbergi and S. saturata,Ibis,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W4250281364,ROYAL STATISTICAL SOCIETY.,The Lancet,21,plausible statistical or probabilistic method prehistory,keep
+1890,https://openalex.org/W3180055928,Oznaczenie lokalizacyi w mózgu i rdzeniu za pomocą zjawisk elektrycznych,,3,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W2026534934,A Review of Modern Electrical Theories,Transactions of the American Institute of Electrical Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W3119895878,"An Experimental Proof of Ohm's Law, Preceded by a Short Account of the Discovery and Subsequent Verification of the Law",Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W4233661490,Grangerizing,Notes and Queries,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W4254240640,Grangerizing,Notes and Queries,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W4247976810,Photo-Micrography,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1890,https://openalex.org/W3209897228,Some Notes on Spectra Analysis.,,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W3119733771,Telephonic Specific Inductive Capacity,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1890,https://openalex.org/W2469629370,The Electrotonic Variation with Strong Polarising Currents,Proceedings of the Royal Society of Edinburgh,0,no clear link to neural-network prehistory in title/source,ignore
+1891,https://openalex.org/W1978059156,I. On the sensitiveness of the bridge method in its application to periodic electric currents,Proceedings of the Royal Society of London,9,no clear link to neural-network prehistory in title/source,ignore
+1892,https://openalex.org/W4231207094,An Improved Carpenter's Square,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1892,https://openalex.org/W4231134563,An Improved Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1892,https://openalex.org/W4251595441,Book Review: Elementary Lessons in Heat.,Journal of Education,0,no clear link to neural-network prehistory in title/source,ignore
+1892,https://openalex.org/W4368357005,Neural Analysis.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1892,https://openalex.org/W1992959669,Selective or Individual Signals,Transactions of the American Institute of Electrical Engineers,0,"plausible information, communication, or signalling prehistory",keep
+1893,https://openalex.org/W2313272748,Experiments upon Physiological Memory by Means of the Interference of Associations,The American Journal of Psychology,25,"plausible nervous-system, psychology, or learning prehistory",keep
+1893,https://openalex.org/W2079050446,THE RELATION OF THE NERVOUS SYSTEM TO HEAT PRODUCTION,The Journal of Nervous and Mental Disease,2,"plausible nervous-system, psychology, or learning prehistory",keep
+1893,https://openalex.org/W4252290893,Latent Heat,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1893,https://openalex.org/W4392072334,Negative Specific Heat,Transactions of the American Society of Mechanical Engineers,1,no clear link to neural-network prehistory in title/source,ignore
+1893,https://openalex.org/W4238702952,An Automatic Gate Operating Device,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1893,https://openalex.org/W4240108148,An Electrically Regulated Time System,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1893,https://openalex.org/W4241259970,An Improved Carpenter's Square,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1893,https://openalex.org/W2074369883,Experiments on Physiological Memory by Means of the Interference of Associations,The Journal of Nervous and Mental Disease,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1893,https://openalex.org/W4248419262,Interference of Electrical Waves,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1894,https://openalex.org/W1976600441,A new Electrical Theorem,Proceedings of the Physical Society of London,15,no clear link to neural-network prehistory in title/source,ignore
+1894,https://openalex.org/W2050344466,A Study of the Polarization upon a Thin Metal Partition in a Voltameter. I,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1894,https://openalex.org/W4236256261,A Study of the Polarization Upon a Thin Metal Partition in a Voltameter. II,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1894,https://openalex.org/W4233588801,An Efficient Calculating Machine,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1894,https://openalex.org/W2070282053,On Electric Strength,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1894,https://openalex.org/W4240500026,Speed of Propagation of an Electrical Disturbance,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1895,https://openalex.org/W2065121259,On the Broadening of Spectral Lines,The Astrophysical Journal,59,unrelated medicine/natural science/engineering,ignore
+1895,https://openalex.org/W2332227999,On the Least Observable Interval between Stimuli Addressed to Disparate Senses and to Different Organs of the Same Sense,The American Journal of Psychology,32,"plausible nervous-system, psychology, or learning prehistory",keep
+1895,https://openalex.org/W4249431533,Electrical Items Worth Repeating,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1895,https://openalex.org/W2076864256,The Theory of Neurons and Their Connection Simply by Contact,The Journal of Nervous and Mental Disease,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1896,https://openalex.org/W4235194223,An Improved Sorting Machine,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1896,https://openalex.org/W4241011997,CORTICAL REPRESENTATION OF THE MOVEMENTS OF THE VOCAL CORDS.,The Lancet,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1896,https://openalex.org/W2305791045,M. Klippel Les neurones. Les lois fondamentales de leurs dégénérescences,Persée (Ministère de lEnseignement supérieur et de la Recherche),0,"plausible nervous-system, psychology, or learning prehistory",keep
+1896,https://openalex.org/W4230540598,Some Neural and Descriptive Terms,Science,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1896,https://openalex.org/W4247530290,Whittier Memory Gems.,Journal of Education,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1897,https://openalex.org/W1998724193,Un Hybride Artificiel DesLychnis DiurnaEtVespertina(2° Note),Bulletin de la Société Botanique de France,2,no clear link to neural-network prehistory in title/source,ignore
+1897,https://openalex.org/W4255980455,A Device for Extracting the Square Root of Certain Surd Quantities,American Mathematical Monthly,0,no clear link to neural-network prehistory in title/source,ignore
+1897,https://openalex.org/W4254953736,An Improved Speed Indicator,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1897,https://openalex.org/W1971519254,Résistance électrique et coefficient de self-induction,Journal de Physique Théorique et Appliquée,0,no clear link to neural-network prehistory in title/source,ignore
+1898,https://openalex.org/W2087925835,An experimental research upon cerebro-cortical afferent and efferent tracts,Proceedings of the Royal Society of London,12,"plausible nervous-system, psychology, or learning prehistory",keep
+1898,https://openalex.org/W4233520256,Sui fenomeni termici nei circuiti di scarica dei condensatoriMemoria del Prof. P. CARDANI,Il Nuovo Cimento,3,"plausible logic, computation, circuit, or network prehistory",keep
+1898,https://openalex.org/W4247061286,Sui fenomeni termici nei circuiti di scarica dei condensatoriMemoria de Prof. P. Cardani,Il Nuovo Cimento,1,"plausible logic, computation, circuit, or network prehistory",keep
+1898,https://openalex.org/W3067626153,Bestämmelser angående stämpling av speglar,KTH Publication Database DiVA (KTH Royal Institute of Technology),0,no clear link to neural-network prehistory in title/source,ignore
+1898,https://openalex.org/W4231874994,Experimental Soaring,Aeronautical journal (London England 1897),0,no clear link to neural-network prehistory in title/source,ignore
+1898,https://openalex.org/W2084780583,The Evolution of the Line Signal,Transactions of the American Institute of Electrical Engineers,0,"plausible information, communication, or signalling prehistory",keep
+1899,https://openalex.org/W2791602589,A production implementation of an associative array processor - STARAN,afips,25,obvious malformed/non-scholarly false hit,ignore
+1899,https://openalex.org/W2181187379,"A Pattern Recognition Program That Generates, Evaluates and Adjusts its Own Operators",MIT Press eBooks,10,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2571352087,On Iterative Circuit Computers Constructed of Microelectronic Components and Systems,afips,6,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2564793610,Pattern and Character Recognition Systems-Picture Processing By Nets of Neuron-Like Elements,afips,5,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2302941850,"Linear Current Division in Resistive Areas, its Application to Computer Graphics",afips,4,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2985877426,Subjective Bayesian methods for rule-based inference systems,afips,3,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2564274155,Analysis of Perceptrons,afips,2,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2771410183,"A 10Mc NDRO BIAX Memory of 1024 Word, 48 Bit Per Word Capacity",afips,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2016083261,A Direct-reading Conductivity-Bridge,Proceedings of the Physical Society of London,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2561170966,A Dual Processor Checkout System,"Managing Requirements Knowledge, International Workshop on",0,obvious malformed/non-scholarly false hit,ignore
+1899,https://openalex.org/W2461440189,A Hybrid Analog-Digital Pseudo-Random Noise Generator,"Managing Requirements Knowledge, International Workshop on",0,"plausible information, communication, or signalling prehistory",keep
+1899,https://openalex.org/W2564339567,A New Concept in Analog Computers,afips,0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2567325734,A Precession Pattern in a Delay Line Memory,"Managing Requirements Knowledge, International Workshop on",0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2568379042,A Search Memory Subsystem for a General Purpose Computer,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2566938883,A Self-Organizing Recognition System,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2566849586,"A Suggested Model for Information Representation in a Computer That Perceives, Learns, and Reasons",afips,0,"plausible information, communication, or signalling prehistory",keep
+1899,https://openalex.org/W2610608374,A Transfluxor Analog Memory Using Frequency Modulation,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2568053805,An associative processor for air traffic control,afips,0,obvious malformed/non-scholarly false hit,ignore
+1899,https://openalex.org/W2561153994,An Improved Generalized Inverse Algorithm for Linear Inequalities and its Applications,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2568114220,Arranging frequency dependent data on sequential memories,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2888676089,Artificial inteIligence on personal computers,afips,0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2578563768,Associative Self-Sorting Memory,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2580105482,Comments on Learning and Adaptive Machines for Pattern Classification,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2567016355,Comments on Session on Learning Machines,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2494508228,"CONTRANS (Conceptual Thought, Random-Net Simulation)",afips,0,plausible statistical or probabilistic method prehistory,keep
+1899,https://openalex.org/W2568515847,DDA Error Analysis Using Sampled Data Techniques,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2568394761,Descriptive Languages and Problem Solving,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2983903861,Design and application of electronically programmable LSI arrays,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2560884386,Design Features of Remington Rand Speed Tally,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2561910448,Experimental Investigation of Large Multilayer Linear Discriminators,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2564122499,"FOXY 2, a Transistorized Analog Memory for Functions of Two Variables",afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2808419495,Gei1eralization of Pattern Recognition in a Self-Organizing System,afips,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2575443113,High-Speed High-Capacity Photographic Memory,"Managing Requirements Knowledge, International Workshop on",0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2568196931,Hybrid Techniques for Analog Function Generation,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2561914299,Ideal Transformers in Synthesis of Analog Computers,"Managing Requirements Knowledge, International Workshop on",0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2474046846,Mathematical Applications of the Dynamic Storage Analog Computer,afips,0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W4235551411,Neural dynamics.,Psychological Review,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W3025260723,On the Value of Widal's Reaction.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2781243108,Parallel Computing With Vertical Data,afips,0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2566431971,Recursive Fast Fourier Transforms,"Managing Requirements Knowledge, International Workshop on",0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2984639329,Storage utilization in a self-organizing database,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2562196018,The Construction of an Empirically Based Mathematically Derived Classification System,afips,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W2578154281,The Electrodata Computer in a Data-Reduction System,afips,0,"plausible logic, computation, circuit, or network prehistory",keep
+1899,https://openalex.org/W2074393120,The Entropy-Diagram and its Applications,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1899,https://openalex.org/W3006758907,The Ionisation of Dilute Solutions at the Freezing Point. [Abstract],Proceedings of the Royal Society of London Series I,0,unrelated medicine/natural science/engineering,ignore
+1899,https://openalex.org/W2324174876,THE NEURON RETRACTION THEORY,The Journal of Nervous and Mental Disease,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1899,https://openalex.org/W2016562421,The retryable processor,afips,0,obvious malformed/non-scholarly false hit,ignore
+1899,https://openalex.org/W2567053132,"Trace- Time-Shared Routines for Analysis, Classification and Evaluation",afips,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W1986274367,Diffusion of the Motor Impulse.,Psychological Review,26,"plausible nervous-system, psychology, or learning prehistory",keep
+1900,https://openalex.org/W4238198380,Deductive Databases and Their Applications,,6,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W758278702,Implications of correlated neuronal noise in decision making circuits for physiology and behavior,Frontiers in Neuroscience,2,"plausible nervous-system, psychology, or learning prehistory",keep
+1900,https://openalex.org/W2323278146,A Computational Model of the Interaction between Visual Perception and Conceptual Processing,Frontiers in Neuroscience,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1900,https://openalex.org/W2325359893,A Neural Network Model of Intraparietal Sulcus That Can Explain a Pattern of Brain Imaging Results Related to the Visual Working Memory,Frontiers in Neuroscience,0,obvious malformed/non-scholarly false hit,ignore
+1900,https://openalex.org/W3119487589,A New Apparatus for Instantaneous Photo-Micrography,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1900,https://openalex.org/W4249488782,Applications of Electrical Science 1,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4252507918,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4239197339,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4239629121,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4253748804,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4233124234,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4214729589,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4229840209,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4250737758,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4254417733,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4407206641,Item Unavailable,,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W2313886883,Localisation of the components of auditory evoked brain responses simultaneously studied with MEG and EEG,Frontiers in Neuroscience,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1900,https://openalex.org/W361163346,MULTIDIMENSIONAL STOCHASTIC APPROXIMATION AND ITS APPLICATIONS TO DETECTION ANDESTIMATION,,0,plausible statistical or probabilistic method prehistory,keep
+1900,https://openalex.org/W564847531,NONSMOOTH AND MULTIVALUED ANALYSIS WITH APPLICATIONS IN OPTIMIZATION,,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W4246125909,Photo-micrography,Nature,0,"plausible logic, computation, circuit, or network prehistory",keep
+1900,https://openalex.org/W2054708385,Sull'effetto Volta,Il Nuovo Cimento,0,no clear link to neural-network prehistory in title/source,ignore
+1900,https://openalex.org/W84779115,Toward a phase transition in the dynamic of thoughts,Frontiers in Behavioral Neuroscience,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4233067235,Elements of Statistics.,The Economic Journal,1,plausible statistical or probabilistic method prehistory,keep
+1901,https://openalex.org/W2313277383,Removal of Any Two Terms from a Binary Quantic by Linear Transformations,American Journal of Mathematics,1,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W2022184177,Synchronism and Frequency Indication,Transactions of the American Institute of Electrical Engineers,1,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W1972175000,An Improved Method of Rating Tuning Forks,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4236766438,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4243310900,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4244969914,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4245937797,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4210814808,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4234531202,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4241762535,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4251041135,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4247391865,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4241378541,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4238350795,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4239285404,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4240277062,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4235863248,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4255536223,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4250073371,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4234563480,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4247133717,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4235956605,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4232531156,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4252309150,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4251086708,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4242640473,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4248273982,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4240215946,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4406830958,On Re-Animation after Death.,,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W4406830916,On the Animation of Lifeless Matter.,,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W1965441747,Review of The Synthetic Experiment.,Psychological Review,0,no clear link to neural-network prehistory in title/source,ignore
+1901,https://openalex.org/W2735358015,"The 100-Ton Universal Testing Machine, with Variable Accumulator, at the James Watt Laboratories, Glasgow University",Proceedings of the Institution of Mechanical Engineers,0,"plausible logic, computation, circuit, or network prehistory",keep
+1902,https://openalex.org/W1559227639,On the Development of Lingula anatina,Institutional Repositories DataBase (IRDB),64,unrelated medicine/natural science/engineering,ignore
+1902,https://openalex.org/W1980572491,On the Development of Lingula anatina,Science,50,unrelated medicine/natural science/engineering,ignore
+1902,https://openalex.org/W2801743316,On the Accuracy of the Improved Voltameter,Proceedings of the American Academy of Arts and Sciences,10,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W2065875757,Modern Machine Methods,Proceedings of the Institution of Mechanical Engineers,2,"plausible logic, computation, circuit, or network prehistory",keep
+1902,https://openalex.org/W4236403723,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4240964045,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4211041520,Handbook of instructions for collectors /,,1,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W2054575265,XVI. A voltameter for small currents,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,1,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4242281168,An Elementary Treatise on Alternating Currents,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W2000803972,Book Review: Vector Analysis,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4232813503,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4233162487,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4241819488,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4231799495,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4255539583,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4242073955,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4238337343,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4246437805,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4234858148,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4252898240,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4241795151,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4231166429,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4250025246,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4206789784,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1902,https://openalex.org/W4234442738,The Meray-Rozar Electrotypographic Machine,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1902,https://openalex.org/W2072618630,"Étude De La Variation Du Décalage d'Un Courant Sur La Force èlectromotrice, en Fonction de La Capacité Du Circuit",La Houille Blanche,0,"plausible logic, computation, circuit, or network prehistory",keep
+1903,https://openalex.org/W649897912,The groundwork of the Leschetizky method,Medical Entomology and Zoology,14,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W2016644186,THE FREEZING-POINTS OF DILUTE SOLUTIONS.,Journal of the American Chemical Society,10,unrelated medicine/natural science/engineering,ignore
+1903,https://openalex.org/W2002902422,Arithmetic of Electrical Measurements,Science,1,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4247828793,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W2332129063,An Experimental and Practical Demonstration of the Value of Downes' Electro-Thermic Angiotribe,New England Journal of Medicine,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4241811032,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4242130715,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4251355977,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4236676041,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4229596997,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4253467596,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4233650914,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4252721665,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4253793383,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4239408762,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4243129868,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4234563972,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4250857448,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4236514957,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4238143672,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4245307168,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4211137331,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4247769730,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4250582842,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4240333536,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4246684861,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4242614313,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4245650737,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4252918574,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4249246176,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4236641566,Intelligent Estimate,Journal of Education,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W2997563509,On the Discharge of Electricity from Hot Platinum. [Abstract],RSPS,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4248617024,Review of Classification of Psychical Phenomena for Experimental Research.,Psychological Review,0,no clear link to neural-network prehistory in title/source,ignore
+1903,https://openalex.org/W4255155082,Stereotyping and Electrotyping,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W2324163775,A study of the silver voltameter,Bulletin of the Bureau of Standards,2,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4242448235,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4239065455,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4239504404,Electrical Vision,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4255488603,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4210380959,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4239034581,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4255665495,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4234173385,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4239950567,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4231427268,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4249413300,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4243904419,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4234336238,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4238032846,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4240187185,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4251503800,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4238482258,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4232923362,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4213120833,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4244046642,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4243754208,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4251670029,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4250655525,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4232402917,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4232712611,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4238475346,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4229933462,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4235627961,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4242779405,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4251746140,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4235461754,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4235911020,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4245564034,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4243530039,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4205362341,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4233200234,Handbook of instructions for collectors /,,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4246796391,On the Magneto-Elastic Detector,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1904,https://openalex.org/W4230644964,Review of Quelques considérations sur la théorie du Neurone.,Psychological Bulletin,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1904,https://openalex.org/W2160990484,THE DOWNES ELECTRO-THERMIC ANGIOTRIBE.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W596461016,Temperature-entropy diagram,Bulletin of Miscellaneous Information (Royal Gardens Kew),52,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4236835266,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4231511308,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W3048208743,A graphical study of the alternating current. [I.],Časopis pro pěstování matematiky a fysiky,0,"plausible logic, computation, circuit, or network prehistory",keep
+1905,https://openalex.org/W4239558084,A graphical study of the alternating current. [II.],Časopis pro pěstování matematiky a fysiky,0,"plausible logic, computation, circuit, or network prehistory",keep
+1905,https://openalex.org/W2610009520,C. J. Herzig sampling South Blocks Mine.,,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4238241577,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4230600360,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4210294083,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4234027762,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4255369049,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4256351664,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4235276499,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4246515367,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4236292072,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4242883367,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4252818518,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4242746996,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4236895213,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4246626460,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4205426156,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4240831981,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4254723302,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4250053566,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4238899571,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4234175846,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4247893548,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W4232011614,Distance Control by Electric Waves,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1905,https://openalex.org/W3171386816,On the ability of distinguishing intensities of tones,Koninklijke Nederlandse Akademie van Wetenschappen Proceedings Series B Physical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1905,https://openalex.org/W569614181,The arithmetic of electrical measurements,Thomas Murby eBooks,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W1992106842,A Machine for Compounding Sine Curves,Science,4,"plausible logic, computation, circuit, or network prehistory",keep
+1906,https://openalex.org/W1974519471,The rectification of alternating currents,The journal of the Institution of Electrical Engineers,2,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4240206458,A self-exciting alternator,Proceedings of the American Institute of Electrical Engineers,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4237636416,An Improved Pyknometer,Science,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4239026241,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4237031631,Contemporary Electrical Science,Scientific American,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4243378667,Handbook of instructions for collectors /,Printed by order of the Trustees of the British Museum eBooks,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4256396355,Improper Multiple Integrals,Transactions of the American Mathematical Society,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4248616269,On Improper Multiple Integrals,Transactions of the American Mathematical Society,1,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W2093377564,A Machine for Compounding Sine Curves,Physical Review,0,"plausible logic, computation, circuit, or network prehistory",keep
+1906,https://openalex.org/W2145854421,An Improved Pyknometer,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W2007876233,An Introduction to the Study of Spectrum Analysis BY W. Marshall Watts,The Astrophysical Journal,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4252341979,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4206530829,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4246233432,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4251520256,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4236479893,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4244878293,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4241547276,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4247755424,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4238316090,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4256569824,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4232922936,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4255920175,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4239067459,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4229922456,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4246695010,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4255001004,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4242759690,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4234751704,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4210856421,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4241431575,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4246609326,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4229837572,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4250044815,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4237506780,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4233525476,Contemporary Electrical Science,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4293260257,Difficult Extractions.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1906,https://openalex.org/W4243369189,"Handbook of instructions for collectors,",,0,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2796422654,On the Representation of Statistical Frequency by a Series,Journal Of The Royal Statistical Society,61,plausible statistical or probabilistic method prehistory,keep
+1907,https://openalex.org/W2318064366,Studies in Absolute Pitch,The American Journal of Psychology,11,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2094179052,An Investigation of the Influence of Electrical Fields upon Spectral Lines,The Astrophysical Journal,8,unrelated medicine/natural science/engineering,ignore
+1907,https://openalex.org/W1965650089,ELECTRIC DISTURBANCES AND PERILS ON MOUNTAIN TOPS,Monthly Weather Review,1,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2133398542,The electrolytic dissociation theory,Bulletin of Miscellaneous Information (Royal Gardens Kew),1,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2044585462,Mesures des résistances et des coefficients de self-induction à l'aide du téléphone différentiel,Journal de Physique Théorique et Appliquée,0,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2999820019,On a Method of Computing %phi;-φ' and ρ,Popular Astronomy,0,"plausible logic, computation, circuit, or network prehistory",keep
+1907,https://openalex.org/W2067520397,Specific Heat of Solutions. V,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2137707164,Sul luogo dei punti di contatto delle ipersuperficie di due dati sistemi lineari,Rendiconti del Circolo Matematico di Palermo Series 2,0,no clear link to neural-network prehistory in title/source,ignore
+1907,https://openalex.org/W2065460101,Theory of the Alternate Current Generator,Proceedings of the Physical Society of London,0,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W4205142062,Electro-Analysis.,Journal of the American Chemical Society,1,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W2047850112,Sulla teoria della convergenza degli algoritmi di iterazione,Annali di Matematica Pura ed Applicata (1923 -),1,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W2318497746,A device to aid in the explanation of interference phenomena,American Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W3119354893,Control by Sound Waves,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1908,https://openalex.org/W3118260130,Electrical Vision at a Distance,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W2060444316,Review of Feeling Analysis and Experimentation.,Psychological Bulletin,0,no clear link to neural-network prehistory in title/source,ignore
+1908,https://openalex.org/W2028449896,THE TECHNIQUE OF OPSONIC ESTIMATION.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1909,https://openalex.org/W1963989733,II. Electrical oscillations in coupled circuits,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,3,"plausible logic, computation, circuit, or network prehistory",keep
+1909,https://openalex.org/W2314952935,The theory of coupled circuits,Bulletin of the Bureau of Standards,3,"plausible logic, computation, circuit, or network prehistory",keep
+1909,https://openalex.org/W2480762692,On statistical methods.,"Longmans, Green and Co eBooks",1,plausible statistical or probabilistic method prehistory,keep
+1909,https://openalex.org/W1994774858,The Energy Relations of Certain Detectors used in Wireless Telegraphy,Proceedings of the Physical Society of London,1,"plausible information, communication, or signalling prehistory",keep
+1909,https://openalex.org/W4236208148,Definitions of Electrical Terms,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1909,https://openalex.org/W2475589701,Electrical View of Matter,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1909,https://openalex.org/W4231683649,Some Comments on the Reactions of Perichæta,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1909,https://openalex.org/W4246543196,Some Fallacies of Statistics.,The Lancet,0,plausible statistical or probabilistic method prehistory,keep
+1909,https://openalex.org/W4254281809,THE INVESTIGATION OF THE ELECTRICAL PHENOMENA ACCOMPANYING THE ACTION OF THE HEART.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1909,https://openalex.org/W2415946092,The Need of Greater Uniformity and Accuracy in Statistical Expression.,PubMed,0,plausible statistical or probabilistic method prehistory,keep
+1910,https://openalex.org/W3142977364,Disruptive Strength with Transient Voltages,Transactions of the American Institute of Electrical Engineers,11,no clear link to neural-network prehistory in title/source,ignore
+1910,https://openalex.org/W2907036961,Book Review: Vector Analysis,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1910,https://openalex.org/W4297975848,DELAYED RECOGNITION.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1910,https://openalex.org/W2038652127,Electrical Heat Penetration,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1910,https://openalex.org/W2017096231,Helmholtz' Explanation of Difference Tones.,Psychological Bulletin,0,no clear link to neural-network prehistory in title/source,ignore
+1910,https://openalex.org/W4405879179,Spectre-Seers.,,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W2078326285,"On an Interpolation Formula Used in Calculating Temperature Coefficients for Velocity of Vital Activities, Together with a Note on the Velocity of Nerve Conduction in Man",Science,2,"plausible nervous-system, psychology, or learning prehistory",keep
+1911,https://openalex.org/W2077061823,"A 2,000-Frequency Alternator",Proceedings of the Physical Society of London,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W1969240066,A Method of Measuring the Fluctuations in a Rapidly Varying Resistance,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W4255329972,A Method of Measuring the Fluctuations in a Rapidly Varying Resistance,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W2808875088,Ch: its pronunciation,Notes and Queries,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W3047736371,Dandelin's theorem and its applications. [II.],Časopis pro pěstování matematiky a fysiky,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W3217469067,Depreciation as Related to Electrical Properties,Transactions of the American Institute of Electrical Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W4246461531,Ingenious Electric Switch Mechanism,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1911,https://openalex.org/W2325554780,NOTE - An Improved Extractor,Journal of the American Chemical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W2296814610,001: On an Absolute Criterion for Fitting Frequency Curves.,Adelaide Research & Scholarship (AR&S) (University of Adelaide),394,plausible statistical or probabilistic method prehistory,keep
+1912,https://openalex.org/W2322180714,THE SPECIFIC HEATS OF CRYSTALLIZED SALTS.,Journal of the American Chemical Society,4,unrelated medicine/natural science/engineering,ignore
+1912,https://openalex.org/W4229846676,Analytical Hybridizing,Journal of Heredity,1,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W2106386575,A COMPARISON OF SIMULTANEOUS POLYGRAPH AND MICROGRAPH TRACINGS,The Journal of Experimental Medicine,0,"plausible logic, computation, circuit, or network prehistory",keep
+1912,https://openalex.org/W2057277039,AN EXPERIMENTAL DETERMINATION OF THE STRESSES IN A ROOF-TRUSS.,Minutes of the Proceedings of the Institution of Civil Engineers,0,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W2071543054,Book Review: Vector Analysis,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W2999483842,Electro-Analysis,Science,0,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W4250037418,Photo-Micrography,Transactions of the American Microscopical Society,0,"plausible logic, computation, circuit, or network prehistory",keep
+1912,https://openalex.org/W4293296059,Query.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1912,https://openalex.org/W3157943179,Translation series in line-spectra,Koninklijke Nederlandse Akademie van Wetenschappen Proceedings Series B Physical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1913,https://openalex.org/W4236439161,Micro-Radiography,Archives of The Roentgen Ray,2,"plausible logic, computation, circuit, or network prehistory",keep
+1913,https://openalex.org/W2044945382,Obtaining the mean variation with the aid of a calculating machine.,Psychological Review,1,"plausible logic, computation, circuit, or network prehistory",keep
+1913,https://openalex.org/W2001178512,On A Method of Comparing Inductance and Capacity,Physical Review,1,no clear link to neural-network prehistory in title/source,ignore
+1913,https://openalex.org/W2796769962,The elements of the harmonic ratio,OpenBU/Boston University Institutional Repository (Boston University),1,no clear link to neural-network prehistory in title/source,ignore
+1913,https://openalex.org/W3169487988,A New Form of clock Synchronization,Journal of the Royal Astronomical Society of Canada,0,"plausible information, communication, or signalling prehistory",keep
+1913,https://openalex.org/W3087517493,A Theorem in Least Squares,Journal of the Royal Astronomical Society of Canada,0,plausible statistical or probabilistic method prehistory,keep
+1913,https://openalex.org/W4236781770,The Control of Motor Traffic.,The Lancet,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1913,https://openalex.org/W4230362721,The Oliver-Sharpey Lectures ON THE ELECTRICAL ACTION OF THE HUMAN HEART.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1913,https://openalex.org/W4235845015,The Oliver-Sharpey Lectures ON THE ELECTRICAL ACTION OF THE HUMAN HEART.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1914,https://openalex.org/W2078168576,Constant Differences in Line-Spectra,The Astrophysical Journal,6,no clear link to neural-network prehistory in title/source,ignore
+1914,https://openalex.org/W1994895156,Some standardizing tests on Stern's tone variator.,The Psychological Monographs,2,no clear link to neural-network prehistory in title/source,ignore
+1914,https://openalex.org/W2415845861,Cinchona Derivatives Inquiry. First Communication.,The Indian Journal of Medical Research,0,"plausible information, communication, or signalling prehistory",keep
+1914,https://openalex.org/W2037643126,"Rays of Positive Electricity and their Application to Chemical Analysis . By Sir J. J. Thomson. Longmans, Green &amp; Co. 1913. Pp. vi+132. Price, $1.40",Science,0,unrelated medicine/natural science/engineering,ignore
+1914,https://openalex.org/W4255489391,Some Experiments with Different Systems of Lateral Control,Scientific American,0,"plausible logic, computation, circuit, or network prehistory",keep
+1914,https://openalex.org/W2040013966,The Determination of Hardness in Natural Waters,Journal of Industrial & Engineering Chemistry,0,no clear link to neural-network prehistory in title/source,ignore
+1914,https://openalex.org/W2797240279,The Semibreve Canto Fermo in Strict Counterpoint,The Musical Times,0,no clear link to neural-network prehistory in title/source,ignore
+1915,https://openalex.org/W2325796032,THE MEASUREMENT OF THE FREEZING-POINT DEPRESSION OF DILUTE SOLUTIONS.,Journal of the American Chemical Society,33,unrelated medicine/natural science/engineering,ignore
+1915,https://openalex.org/W2029650461,Origin of higher orders of combination tones.,Psychological Review,2,no clear link to neural-network prehistory in title/source,ignore
+1915,https://openalex.org/W2010139888,A RAPID METHOD OF LOCALIZATION BY X RAYS,BMJ,0,no clear link to neural-network prehistory in title/source,ignore
+1916,https://openalex.org/W2319344523,The Nature of Recognition Memory and of the Localization of Recognitions,The American Journal of Psychology,25,"plausible nervous-system, psychology, or learning prehistory",keep
+1916,https://openalex.org/W2524617048,Observations of soil temperature with electrical resistance thermometers,Journal of the Meteorological Society of Japan Ser II,7,unrelated medicine/natural science/engineering,ignore
+1916,https://openalex.org/W4297563124,Theory of Errors and Least Squares.,American Mathematical Monthly,5,plausible statistical or probabilistic method prehistory,keep
+1916,https://openalex.org/W3093518020,Entropy and Probability,Koninklijke Nederlandse Akademie van Wetenschappen Proceedings Series B Physical Sciences,0,plausible statistical or probabilistic method prehistory,keep
+1916,https://openalex.org/W2200446630,INCIPIENT SYSTEMIC DISTURBANCES AS SHOWN BY OCULAR SIGNS.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1916,https://openalex.org/W2032102716,The Correction for Thermoelectric Current to be Applied to the Throw of a Ballistic Moving-Coil Galvanometer,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1916,https://openalex.org/W2318094314,THE EXTRAPOLATION OF CONDUCTANCE VALUES.,Journal of the American Chemical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1916,https://openalex.org/W2000819665,The Interferences of Spectra Both Reversed and Inverted,Proceedings of the National Academy of Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1917,https://openalex.org/W2487958739,Memory for Absolute Pitch.,Louis N Wilson eBooks,25,"plausible nervous-system, psychology, or learning prehistory",keep
+1917,https://openalex.org/W2498462625,The Distribution of Time in Learning Small Amounts of Material.,Louis N Wilson eBooks,17,"plausible nervous-system, psychology, or learning prehistory",keep
+1917,https://openalex.org/W2597468201,THE EFFECT OF TEMPERATURE CHANGES ON RHYTHM IN THE HUMAN ELECTROMYOGRAM,American Journal of Physiology-Legacy Content,14,no clear link to neural-network prehistory in title/source,ignore
+1917,https://openalex.org/W2062617938,The shapes of group molecules forming the surfaces of liquids.,Journal of the Franklin Institute,7,no clear link to neural-network prehistory in title/source,ignore
+1917,https://openalex.org/W2797514388,On Inductive Inference,The Journal of Philosophy Psychology and Scientific Methods,2,no clear link to neural-network prehistory in title/source,ignore
+1917,https://openalex.org/W1492308378,Book Review: Theory of Errors and Least Squares,Bulletin of the American Mathematical Society,0,plausible statistical or probabilistic method prehistory,keep
+1917,https://openalex.org/W2739783706,The Nora Bayes fox trot,York University Digital Library (York University),0,no clear link to neural-network prehistory in title/source,ignore
+1918,https://openalex.org/W2023738753,Transmission of Activation in Passive Metals as a Model of the Protoplasmic or Nervous Type of Transmission,Science,51,"plausible nervous-system, psychology, or learning prehistory",keep
+1918,https://openalex.org/W2320917859,A Checking Table for the Method of Constant Stimuli,The American Journal of Psychology,4,"plausible nervous-system, psychology, or learning prehistory",keep
+1918,https://openalex.org/W1567696622,Book Review: Electric and Magnetic Measurements,Bulletin of the American Mathematical Society,1,no clear link to neural-network prehistory in title/source,ignore
+1918,https://openalex.org/W1968719818,A Comparison of the Wave-form of the Telephone Current Produced by a Thermal Detector and by a Rectifier in Heterodyne Reception,Proceedings of the Physical Society of London,0,"plausible information, communication, or signalling prehistory",keep
+1918,https://openalex.org/W2072512097,Book Review: The Method of Least Squares with Applications,Bulletin of the American Mathematical Society,0,plausible statistical or probabilistic method prehistory,keep
+1918,https://openalex.org/W2110835073,"Further Discussion on ""Oscillating Audion Circuits'"" by L. A. Hazeltine",Proceedings of the Institute of Radio Engineers,0,"plausible logic, computation, circuit, or network prehistory",keep
+1918,https://openalex.org/W1986393758,Technic of Credé Method,American Journal of Ophthalmology,0,no clear link to neural-network prehistory in title/source,ignore
+1919,https://openalex.org/W2075219245,Sur les propriétés des circuits électriques dénués de résistance,Journal de Physique Théorique et Appliquée,3,"plausible logic, computation, circuit, or network prehistory",keep
+1919,https://openalex.org/W3016521657,The Quantitative Relations of the Nervous System Determined by the Mechanism of the Neurone,KNAB,3,"plausible nervous-system, psychology, or learning prehistory",keep
+1919,https://openalex.org/W1991269611,ADDITIONAL METEOROLOGICAL DATA NEEDED BY ENGINEERS,Monthly Weather Review,2,"plausible logic, computation, circuit, or network prehistory",keep
+1919,https://openalex.org/W3007731004,On the Peripheral Sensitive Nervous System,KNAB,2,"plausible nervous-system, psychology, or learning prehistory",keep
+1919,https://openalex.org/W1488518907,Book Review: Calcolo delle Probabilità,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1919,https://openalex.org/W2043529534,THE ANALYSIS OF A COMPOSITE NEUROSIS.,The Lancet,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1919,https://openalex.org/W3010853964,The Limit of Sensitiveness in the String galvanometer,Koninklijke Nederlandse Akademie van Wetenschappen Proceedings Series B Physical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1919,https://openalex.org/W3087923500,The Phenomenon Electrical Supertension. II,Koninklijke Nederlandse Akademie van Wetenschappen Proceedings Series B Physical Sciences,0,no clear link to neural-network prehistory in title/source,ignore
+1919,https://openalex.org/W2035523005,THERMOMETRY LAG AND A METHOD FOR ITS MEASUREMENT,School Science and Mathematics,0,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W2046350253,The backward elimination of errors in mental maze learning.,Journal of Experimental Psychology,29,"plausible nervous-system, psychology, or learning prehistory",keep
+1920,https://openalex.org/W2551662624,Bayesian hierarchical models of cognition,Cambridge University Press eBooks,13,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W2039843738,INFLUENCE OF EXPOSURE ON TEMPERATURE OBSERVATIONS,Monthly Weather Review,5,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W2059377873,Book Review: Les Spectres numériques,Bulletin of the American Mathematical Society,2,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W2011051960,Long-Time Temperature Prediction,Science,2,plausible statistical or probabilistic method prehistory,keep
+1920,https://openalex.org/W2033371007,Book Review: Matrices and Determinoids,Bulletin of the American Mathematical Society,1,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W4210537229,Calcolo delle Probabilita.,Journal Of The Royal Statistical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1920,https://openalex.org/W1973024526,Correction: The Effect of Air in Stream on the Coefficient of Heat Transmission,Journal of Industrial & Engineering Chemistry,0,"plausible information, communication, or signalling prehistory",keep
+1920,https://openalex.org/W2033885408,Inherent Regulation of Continuous Current Circuits,Transactions of the American Institute of Electrical Engineers,0,"plausible logic, computation, circuit, or network prehistory",keep
+1920,https://openalex.org/W4206251267,Inherent regulation of continuous current circuits,Journal of the American Institute of Electrical Engineers,0,"plausible logic, computation, circuit, or network prehistory",keep
+1920,https://openalex.org/W2314654957,THE FORM OF THE CONDUCTANCE FUNCTION IN DILUTE SOLUTIONS.,Journal of the American Chemical Society,0,unrelated medicine/natural science/engineering,ignore
+1921,https://openalex.org/W2325988526,Periodic Conjugate Nets,Annals of Mathematics,6,no clear link to neural-network prehistory in title/source,ignore
+1921,https://openalex.org/W2077478692,The Galvanometric Measurement of Human Emotion1,Nature,5,no clear link to neural-network prehistory in title/source,ignore
+1921,https://openalex.org/W2012714504,A Device for Determining Coefficients of Partial Correlation.,Psychological Review,2,plausible statistical or probabilistic method prehistory,keep
+1921,https://openalex.org/W4246668569,Elements of Statistics.,The Economic Journal,0,plausible statistical or probabilistic method prehistory,keep
+1921,https://openalex.org/W1551916189,On Professor Moritz' Method for Computing Frequency Percentages,Quarterly Publications of the American Statistical Association,0,"plausible logic, computation, circuit, or network prehistory",keep
+1921,https://openalex.org/W4252716728,REQUEST FOR DATA ON VARIOUS AUTHORS,JAMA,0,no clear link to neural-network prehistory in title/source,ignore
+1921,https://openalex.org/W2073387922,Review of Interdependence of Judgments within the Series for the Method of Constant Stimuli.,Psychological Bulletin,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1921,https://openalex.org/W1963678873,When More Voltage Means More Distance,Scientific American,0,no clear link to neural-network prehistory in title/source,ignore
+1921,https://openalex.org/W3013116186,Work on Spectra,phae,0,no clear link to neural-network prehistory in title/source,ignore
+1922,https://openalex.org/W4231003714,Practical Least Squares.,American Mathematical Monthly,8,plausible statistical or probabilistic method prehistory,keep
+1922,https://openalex.org/W2075288284,The Usefulness of Analytic Abstracts,Science,4,no clear link to neural-network prehistory in title/source,ignore
+1922,https://openalex.org/W2030392886,Improved Methods in Near Infra-Red Absorption Study,Science,2,no clear link to neural-network prehistory in title/source,ignore
+1922,https://openalex.org/W2074514020,A New Visual Null Method for Conductivity Determinations,Physical Review,1,no clear link to neural-network prehistory in title/source,ignore
+1922,https://openalex.org/W2010009201,DISCHARGE OF STATIC ELECTRICITY,Science,1,no clear link to neural-network prehistory in title/source,ignore
+1922,https://openalex.org/W4297986499,Asaya-Neural.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1922,https://openalex.org/W4214766424,The Morphologic Aspect of Intelligence.,JAMA,0,"plausible logic, computation, circuit, or network prehistory",keep
+1922,https://openalex.org/W2093360143,The Significance of the 1/2 Terms in Spectral Series Formulæ,Physical Review,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W2056814274,The Electrical Structure of Matter,Nature,6,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W2005871978,Frequency Arrays: Illustrating the Use of Logical Symbols in the Study of Statistical and Other Distributions,Journal of the American Statistical Association,4,"plausible logic, computation, circuit, or network prehistory",keep
+1923,https://openalex.org/W4255814326,[Book Reviews],Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W2024521462,A NOTE ON THE PROPAGATION OF HEAT IN WATER,Transactions of the Royal Society of South Africa,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W1497628673,DISCUSSION ON THE VAGUS AND SYMPATHETIC NERVES AND THEIR RELATION TO CLIMATE AND HYDROLOGY.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1923,https://openalex.org/W4253785708,Electrical Statistics at a Glance,Scientific American,0,plausible statistical or probabilistic method prehistory,keep
+1923,https://openalex.org/W38878088,Modern electrical theorie,Monatshefte für Mathematik,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W1990960874,Note upon Holzinger's formula for the probable error.,Journal of Educational Psychology,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W3114752399,Systematic distribution of velocities,Observatory,0,no clear link to neural-network prehistory in title/source,ignore
+1923,https://openalex.org/W2332009968,The Construction and Interpretation of Correlation Tables,The Journal of Educational Research,0,plausible statistical or probabilistic method prehistory,keep
+1924,https://openalex.org/W1981409066,Certain Factors Affecting Telegraph Speed1,Bell System Technical Journal,418,"plausible information, communication, or signalling prehistory",keep
+1924,https://openalex.org/W3149937367,Selective Circuits and Static Interference,Transactions of the American Institute of Electrical Engineers,8,"plausible logic, computation, circuit, or network prehistory",keep
+1924,https://openalex.org/W2048997434,The phonic chronometer,Journal of Scientific Instruments,6,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W2010191325,An automatic and continuous recording balance,Journal of Scientific Instruments,5,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W2800350273,Untried Methods of Representing Frequency,Journal of the Royal Statistical Society Series A (Statistics in Society),5,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W2416851466,Correlation of the Auditory Digit Memory Span with General Intelligence.,PubMed,4,"plausible nervous-system, psychology, or learning prehistory",keep
+1924,https://openalex.org/W4253146795,Untried Methods of Representing Frequency,Journal Of The Royal Statistical Society,3,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W4242968749,A General Mean-Value Theorem,Transactions of the American Mathematical Society,2,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W2045018048,Two Notes on Statistical Method.,Journal of Educational Psychology,2,plausible statistical or probabilistic method prehistory,keep
+1924,https://openalex.org/W4231014208,MEASURING PERSONAL COMFORT WITH THE KATA THERMOMETER,American journal of public health,1,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W4237671072,On the Induction of Antirachitic Properties in Rations by Exposure to Light,Science,1,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W1979777857,XCIX. On Sommerfeld's and Landé's rules for classification of terms and Zeeman patterns in spectra,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,1,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W4242115701,Book Review: Vector Analysis,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W4248224488,Electrical Progress and its Unsolved Problems,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W4239637664,Photographs of Electrical Disturbances,Science,0,"plausible logic, computation, circuit, or network prehistory",keep
+1924,https://openalex.org/W4253834986,Photographs of Electrical Disturbances,Science,0,"plausible logic, computation, circuit, or network prehistory",keep
+1924,https://openalex.org/W2795820265,Predicting the Movements of Electrons,The Science News-Letter,0,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W2056067208,REVIEW: A Trealise on the Analysis of Spectra by W. M. Hicks,The Astrophysical Journal,0,no clear link to neural-network prehistory in title/source,ignore
+1924,https://openalex.org/W1980386327,XCII. On the measurement of the natural frequency of an inductance coil at audio-frequency,The London Edinburgh and Dublin Philosophical Magazine and Journal of Science,0,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W2318400860,The Determination of Memory Span by the Method of Constant Stimuli,The American Journal of Psychology,44,"plausible nervous-system, psychology, or learning prehistory",keep
+1925,https://openalex.org/W4233215570,"Bayes' Theorem, Examined in the Light of Experimental Sampling",Biometrika,13,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W2091038020,An Automatic Correlation Calculating Machine,Journal of the American Statistical Association,11,"plausible logic, computation, circuit, or network prehistory",keep
+1925,https://openalex.org/W2316588899,Mathematical Analysis of Statistics.,American Mathematical Monthly,3,plausible statistical or probabilistic method prehistory,keep
+1925,https://openalex.org/W4229922936,An Automatic Correlation Calculating Machine,Journal of the American Statistical Association,1,"plausible logic, computation, circuit, or network prehistory",keep
+1925,https://openalex.org/W2734841149,Imhoff Tanks — Reasons for Differences in Behavior,Transactions of the American Society of Civil Engineers,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1925,https://openalex.org/W3048277372,On the undumped Herz's waves,Časopis pro pěstování matematiky a fysiky,1,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W4246150023,An automatic and continuous recording balance,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W2015411547,Elements of Statistics.,Journal of the American Statistical Association,0,plausible statistical or probabilistic method prehistory,keep
+1925,https://openalex.org/W4232424011,GENERAL ANF APPLIED CHAEMISTRY,AJN American Journal of Nursing,0,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W4251345270,On First Power Methods of Finding Correlation,Biometrika,0,plausible statistical or probabilistic method prehistory,keep
+1925,https://openalex.org/W2352443710,On Formulae for Temperature Effects.,Journal of Applied Entomology,0,no clear link to neural-network prehistory in title/source,ignore
+1925,https://openalex.org/W2545811692,Some Practical Points relative to Control of Rosy Aphis.,,0,"plausible logic, computation, circuit, or network prehistory",keep
+1925,https://openalex.org/W2405864967,Two Special Uses of Ordinary Electric Currents.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2312446715,"On Fredholm's Integral Equations, Whose Kernels are Analytic in a Parameter",Annals of Mathematics,57,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2065137536,Variations of the product-moment (Pearson) coefficient of correlation.,Journal of Educational Psychology,7,plausible statistical or probabilistic method prehistory,keep
+1926,https://openalex.org/W29539415,GRAPHICAL INTERPRETATION OF ELECTROMETRIC TITRATION DATA BY USE OF COMPARISON CURVES,Journal of Biological Chemistry,5,"plausible logic, computation, circuit, or network prehistory",keep
+1926,https://openalex.org/W2011016704,Control experiments in relation to identification of speech sounds by aid of tactual cues.,Journal of Abnormal & Social Psychology,4,"plausible logic, computation, circuit, or network prehistory",keep
+1926,https://openalex.org/W2062796794,The general idea of the theory of decrementless conduction,Proceedings of the Japan Academy Series A Mathematical Sciences,3,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2524811879,On Certain Averages in Periodogram Analysis,Tohoku Mathematical Journal,2,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2198749172,CYLINDER-TEMPERATURE CONTROL BY EVAPORATION,SAE technical papers on CD-ROM/SAE technical paper series,1,"plausible logic, computation, circuit, or network prehistory",keep
+1926,https://openalex.org/W1991877487,Electrical Research Applied to the Phonograph,Scientific American,1,"plausible logic, computation, circuit, or network prehistory",keep
+1926,https://openalex.org/W1989672898,A METHOD OF ANALYZING STATISTICAL DATA BY CODING ON AN ADDING MACHINE,American journal of public health,0,"plausible information, communication, or signalling prehistory",keep
+1926,https://openalex.org/W3204677650,A New Method for Laying off Rectangular Sample Plots,Journal of Forestry,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2067824796,A self-starting phonic motor,Journal of Scientific Instruments,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1926,https://openalex.org/W3217657233,Afflux-voltmeter for magnetic tests,Journal of the A.I.E.E.,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W4248813620,Book Review: Electronomy,Journal of Education,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2247915967,Construction of SaskatoonIncinerator.,,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W2797226841,Elements of Statistics.,Journal Of The Royal Statistical Society,0,plausible statistical or probabilistic method prehistory,keep
+1926,https://openalex.org/W4245697934,Interpretation of deviations from Ohm's law,Journal of the Franklin Institute,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W868747122,On the Deduction of Characteristic Equation by the Method of Virial,Proceedings of the Physico-Mathematical Society of Japan. 3rd Series,0,no clear link to neural-network prehistory in title/source,ignore
+1926,https://openalex.org/W4236712137,XV. The Effect of Leakage at the Edges upon the Temperatures within a Homogeneous Lamina through which Heat is being Conducted,Harvard University Press eBooks,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2093409912,Report on a revision of the conductivity theory,Transactions of the Faraday Society,76,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2054140452,Boucherot's constant-current networks and their relation to electric wave filters,The journal of the Institution of Electrical Engineers,16,"plausible logic, computation, circuit, or network prehistory",keep
+1927,https://openalex.org/W1986615914,Analyzer for Complex Electric Waves,Bell System Technical Journal,7,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2005802541,Correlation Coefficients and the Theory of Mental Abilities,Nature,4,plausible statistical or probabilistic method prehistory,keep
+1927,https://openalex.org/W1574845052,A Statistical Study of Certain Aspects of the Time Factor in Intelligence,Teachers College Record The Voice of Scholarship in Education,3,plausible statistical or probabilistic method prehistory,keep
+1927,https://openalex.org/W3012098170,Possible Local Cloud of Absorbing Matter.,HarCi,1,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2317431857,The Normal Probability Function and General Frequency Functions,American Journal of Mathematics,1,plausible statistical or probabilistic method prehistory,keep
+1927,https://openalex.org/W2950577188,An Electrical Stimulus Which Can Be Accurately Measured,UNI ScholarWorks (University of Northern Iowa),0,"plausible nervous-system, psychology, or learning prehistory",keep
+1927,https://openalex.org/W4232048078,Book Review: Matrices and Determinoids,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W4237011165,Elements of Statistics.,Journal Of The Royal Statistical Society,0,plausible statistical or probabilistic method prehistory,keep
+1927,https://openalex.org/W632298936,Essentials of electrical work,Medical Entomology and Zoology,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2014814943,Non-harmonic alternating currents,Journal of the A.I.E.E.,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2461787618,The Lexis theory,The Carus mathematical monographs,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W3083545644,The Measurement of the Intensity of Spectrum Lines.,Harvard College Observatory Circular,0,no clear link to neural-network prehistory in title/source,ignore
+1927,https://openalex.org/W2085885441,The Nuptial Pad of Kammerer's Water-bred Alytes,Nature,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W1545744341,Transmission of Information1,Bell System Technical Journal,1824,"plausible information, communication, or signalling prehistory",keep
+1928,https://openalex.org/W2324707440,On the composition of elementary errors,Scandinavian Actuarial Journal,166,plausible statistical or probabilistic method prehistory,keep
+1928,https://openalex.org/W4299831162,Frequency Curves and Correlation.,Journal Of The Royal Statistical Society,68,plausible statistical or probabilistic method prehistory,keep
+1928,https://openalex.org/W1969657124,Distortion Correction in Electrical Circuits with Constant Resistance Recurrent Networks,Bell System Technical Journal,57,"plausible logic, computation, circuit, or network prehistory",keep
+1928,https://openalex.org/W2043497277,On Quantitative Substitutional Analysis,Journal of the London Mathematical Society,11,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W2070229260,A learning curve equation as fitted to learning records.,Psychological Review,5,"plausible nervous-system, psychology, or learning prehistory",keep
+1928,https://openalex.org/W2111794420,"A new interference method of measuring the surface area of film catalysts.—Part II. Nickel—A method of preparation of the film, and an apparatus for activation, and study of the surface area",Proceedings of the Royal Society of London Series A Containing Papers of a Mathematical and Physical Character,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W1966581050,A Pearson-r form for use with calculating machines.,Journal of Educational Psychology,0,"plausible logic, computation, circuit, or network prehistory",keep
+1928,https://openalex.org/W4232925607,An Expression for the Asymmetrical Tendency of Frequency Distributions,Journal of the American Statistical Association,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W4238803056,Book Review: Strayer-Upton Arithmetics,Journal of Education,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W4245423789,Book Review: Strayer-Upton Arithmetics,Journal of Education,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W624955870,Decimalskattningen vid avläsning av symmetriska skalor,,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W2999502098,Spectral classification and the Henry Draper Extension (abstract),Popular Astronomy,0,no clear link to neural-network prehistory in title/source,ignore
+1928,https://openalex.org/W2021174667,Sulle Relazioni Intercedenti Era Le Varie Statistiche E La Meccanica Ondulatoria,Il Nuovo Cimento,0,plausible statistical or probabilistic method prehistory,keep
+1929,https://openalex.org/W2049816400,The Interionic Attraction Theory of Electrical Conductance.,Chemical Reviews,14,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2033760983,Revision of the Value of e/m Derived from Measurements of the Zeeman Effect,The Astrophysical Journal,13,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2082412009,Functions of Real Variables.,American Mathematical Monthly,8,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2313250658,Entropy and Probability,The Journal of Physical Chemistry,6,plausible statistical or probabilistic method prehistory,keep
+1929,https://openalex.org/W2600642081,EXPERIMENTAL ERROR. A Survey of Recent Advances in Statistical Method.,,3,plausible statistical or probabilistic method prehistory,keep
+1929,https://openalex.org/W2101050305,The Electrical Transmission of Pictures and Images,Proceedings of the IRE,3,"plausible information, communication, or signalling prehistory",keep
+1929,https://openalex.org/W2329871510,The Influence of Repetition of a Series upon the Omission of Its Intermediate Terms,The American Journal of Psychology,2,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2328750324,"Classes of Functions, Orthogonal on an Infinite Interval, Having the Power of the Continuum",Journal of Mathematics and Physics,1,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2241883528,Rapporti inattesi fra alcuni rami della matematica,Dialnet (Universidad de la Rioja),1,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W2313535372,Abridgment of a new automatic synchronizer,Journal of the A.I.E.E.,0,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W4239838502,Blocking-Out Undesirable Backgrounds in Photographs,Science,0,"plausible logic, computation, circuit, or network prehistory",keep
+1929,https://openalex.org/W4232250470,Electrical definitions,Journal of the A.I.E.E.,0,no clear link to neural-network prehistory in title/source,ignore
+1929,https://openalex.org/W4250324399,GRAPHICAL REPRESENTATION OF THE REVERBERATION EQUATION,The Journal of the Acoustical Society of America,0,"plausible logic, computation, circuit, or network prehistory",keep
+1929,https://openalex.org/W2320542986,Speed indicator and frequency meter,Journal of the A.I.E.E.,0,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W633791213,Les statistiques quantiques et leurs applications,Medical Entomology and Zoology,26,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W3036195417,Illusions in the perception of short time intervals,,18,"plausible nervous-system, psychology, or learning prehistory",keep
+1930,https://openalex.org/W2077346450,A New Transformation in Alternating-Current Theory with an Application to the Theory of Audition,Proceedings of the IRE,15,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W1972945503,The retention and recognition of patterns in maze learning.,Journal of Experimental Psychology,14,"plausible nervous-system, psychology, or learning prehistory",keep
+1930,https://openalex.org/W4213028716,Operational Circuit Analysis.,American Mathematical Monthly,9,"plausible logic, computation, circuit, or network prehistory",keep
+1930,https://openalex.org/W2296251715,Frequency Division,Proceedings of the Institute of Radio Engineers,8,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W2039900511,On the determination of the parameters in an empirical formula,Proceedings of the Physical Society,4,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W2090529201,A Graphical Method for Fitting Curves to Learning Data,The Journal of General Psychology,3,"plausible nervous-system, psychology, or learning prehistory",keep
+1930,https://openalex.org/W2044881875,A Paper on NERVOUS AND MENTAL MANIFESTATIONS OF THE CLIMACTERIC,BMJ,3,"plausible nervous-system, psychology, or learning prehistory",keep
+1930,https://openalex.org/W2025780456,Recent research in the field of audition.,Psychological Bulletin,3,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W2326584146,Providing for Changes of Temperature in Volumetric Analysis,Industrial & Engineering Chemistry Analytical Edition,2,no clear link to neural-network prehistory in title/source,ignore
+1930,https://openalex.org/W2326333132,Combining Constant Probability Functions,American Mathematical Monthly,1,plausible statistical or probabilistic method prehistory,keep
+1930,https://openalex.org/W2462931177,V.—The General Expression for Boundary Conditions and the Limits of Correlation,Proceedings of the Royal Society of Edinburgh,1,plausible statistical or probabilistic method prehistory,keep
+1930,https://openalex.org/W4238571351,Combining Constant Probability Functions,American Mathematical Monthly,0,plausible statistical or probabilistic method prehistory,keep
+1930,https://openalex.org/W4235302377,Learning Series of Nonsense Syllables in Serial Order Measure,PsycTESTS Dataset,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1930,https://openalex.org/W2038219205,RECENT WARM-WEATHER TRENDS AS SHOWN BY GRAPHS OF ACCUMULATED TEMPERATURE,Monthly Weather Review,0,unrelated medicine/natural science/engineering,ignore
+1930,https://openalex.org/W2288403431,The Graphical Solution of a Correlation Table,Transactions of the American Society of Civil Engineers,0,"plausible logic, computation, circuit, or network prehistory",keep
+1931,https://openalex.org/W2335330008,Spectral Hue as a Function of Intensity,The American Journal of Psychology,171,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W2084819809,The Statistical Energy-Frequency Spectrum of Random Disturbances,Bell System Technical Journal,41,plausible statistical or probabilistic method prehistory,keep
+1931,https://openalex.org/W2024795743,On the counting ability of a monkey (Macacus cynomolgus).,Journal of comparative psychology,16,"plausible nervous-system, psychology, or learning prehistory",keep
+1931,https://openalex.org/W2018317225,Governor performance during system disturbances,Electrical Engineering,11,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W1966444140,Simplified Methods for Computing Regression Coefficients and Partial and Multiple Correlations,The Journal of Educational Research,9,"plausible logic, computation, circuit, or network prehistory",keep
+1931,https://openalex.org/W2020667444,The automatic prediction of scholastic success by using the multiple regression technique with electric tabulating and accounting machines.,Journal of Educational Psychology,4,"plausible logic, computation, circuit, or network prehistory",keep
+1931,https://openalex.org/W1983237554,Classification of Sizes or Measures by Frequency Functions,Journal of the American Statistical Association,3,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W4241525937,Classification of Sizes or Measures by Frequency Functions,Journal of the American Statistical Association,1,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W2468777654,OBSERVATIONS ON THE SYMPATHETIC NERVOUS SYSTEM.,PubMed Central,1,"plausible nervous-system, psychology, or learning prehistory",keep
+1931,https://openalex.org/W4299574965,A WELL-MERITED RECOGNITION.,PubMed,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1931,https://openalex.org/W2094900313,An electric time marker for self-recording instruments,Journal of Scientific Instruments,0,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W2616771478,Book Review: Leçons sur les Ensembles Analytiques et leurs Applications,Bulletin of the American Mathematical Society,0,no clear link to neural-network prehistory in title/source,ignore
+1931,https://openalex.org/W3049676679,Concerning the Bimonthly Predictions of Long Period Variables,Harvard College Observatory Bulletin,0,plausible statistical or probabilistic method prehistory,keep
+1931,https://openalex.org/W2114203717,On Writer's Cramp and Other Occupation Neuroses,Journal of Mental Science,0,"plausible nervous-system, psychology, or learning prehistory",keep
+1931,https://openalex.org/W650900028,Vector representation for electrical metermen,Virtual Defense Library (Ministerio de Defensa),0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W2125461761,The theory of electric and magnetic susceptibilities,,2039,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W2006608250,The goal-gradient hypothesis and maze learning.,Psychological Review,596,"plausible nervous-system, psychology, or learning prehistory",keep
+1932,https://openalex.org/W2320903144,AN EQUATION FOR THE REPRESENTATION OF HIGH-TEMPERATURE HEAT CONTENT DATA1,Journal of the American Chemical Society,420,unrelated medicine/natural science/engineering,ignore
+1932,https://openalex.org/W2063634322,The effect of rate of sequence upon the accuracy of synchronization.,Journal of Experimental Psychology,90,"plausible information, communication, or signalling prehistory",keep
+1932,https://openalex.org/W2012386335,"Western Electric Noiseless Recording&lt;!--&lt;xref ref-type=""fn"" rid=""fn110.5594_J05521""&gt;*&lt;/xref&gt;--&gt;",Journal of the Society of Motion Picture Engineers,13,"plausible information, communication, or signalling prehistory",keep
+1932,https://openalex.org/W2074156607,New applications of non-linear circuits to relay and control problems,Electrical Engineering,4,"plausible logic, computation, circuit, or network prehistory",keep
+1932,https://openalex.org/W1978220303,Voltage-Frequency Relationships in Action Currents,Science,2,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W2994603515,The Theory of Complex Spectra.,,1,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W2471620549,VII.—On Charlier's New Form of the Frequency Function,Proceedings of the Royal Society of Edinburgh,1,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W4245526629,Cones are Highly Developed Rods.,,0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W4255772095,On the Coefficient of Part Correlation,Journal of the American Statistical Association,0,plausible statistical or probabilistic method prehistory,keep
+1932,https://openalex.org/W2090871636,ROAD TRAFFIC SIGNALS,BMJ,0,"plausible information, communication, or signalling prehistory",keep
+1932,https://openalex.org/W4210717446,Statistics electrical,Journal of the Franklin Institute,0,plausible statistical or probabilistic method prehistory,keep
+1932,https://openalex.org/W2088253971,The regulated alternating current as a time measure.,Journal of Experimental Psychology,0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W3023078246,The Specific Heats of Organic Liquids.,PhDT,0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W2011765617,THE ZÜND-BURGUET METHOD IN VERTIGO.,The Lancet,0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W4254005117,Time-Signal Recording,Seismological Research Letters,0,"plausible information, communication, or signalling prehistory",keep
+1932,https://openalex.org/W4300915604,TRANSACTIONS OF SIXTY-FIRST ANNUAL SESSION.,PubMed,0,no clear link to neural-network prehistory in title/source,ignore
+1932,https://openalex.org/W3177147766,"Vector Analysis with Applications to Physics. By R. Gans. Translated by W. M. Deans. Pp. x, 164. 12s. 6d. 1932. (Blackie)",The Mathematical Gazette,0,no clear link to neural-network prehistory in title/source,ignore
